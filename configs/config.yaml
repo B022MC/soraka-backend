@@ -1,0 +1,22 @@
+server:
+  http:
+    network: tcp
+    addr: 0.0.0.0:8200
+    timeout: 5s
+
+data:
+  database:
+    driver: sqlite
+    source: soraka.db
+    alias: sorakaDB
+
+global:
+  proxyIconUrl:
+    profile_icons: https://proxy.example.com/icons/profile/
+    champion_icons: https://proxy.example.com/icons/champion/
+    spell_icons: https://proxy.example.com/icons/spell/
+
+  proxyJsonUrl:
+    item_json: https://proxy.example.com/json/item.json
+    spell_json: https://proxy.example.com/json/spell.json
+    champ_json: https://proxy.example.com/json/champion.json

@@ -1,0 +1,3 @@
+{"level":"info","ts":"2025-07-04 01:08:17","msg":"✅ SQLite connected.","module":"infra/sqlite"}
+{"level":"info","ts":"2025-07-04 01:08:17","msg":"[GIN-debug] POST   /lcu/currentSummoner/getCurrentSummoner --> soraka-backend/internal/service/lcu.(*CurrentSummonerService).GetCurrSummoner-fm (3 handlers)\n"}
+{"level":"info","ts":"2025-07-04 01:08:17","msg":"[gin] server listening on: 0.0.0.0:8200"}
