@@ -1,3 +1,110 @@
 {"level":"info","ts":"2025-07-04 01:08:17","msg":"✅ SQLite connected.","module":"infra/sqlite"}
 {"level":"info","ts":"2025-07-04 01:08:17","msg":"[GIN-debug] POST   /lcu/currentSummoner/getCurrentSummoner --> soraka-backend/internal/service/lcu.(*CurrentSummonerService).GetCurrSummoner-fm (3 handlers)\n"}
 {"level":"info","ts":"2025-07-04 01:08:17","msg":"[gin] server listening on: 0.0.0.0:8200"}
+{"level":"info","ts":"2025-07-04 14:54:46","msg":"[gin] server stopping..."}
+{"level":"info","ts":"2025-07-04 14:54:46","msg":"[gin] server stopped."}
+{"level":"info","ts":"2025-07-04 14:54:46","msg":"🧹 SQLite closed.","module":"infra/sqlite"}
+{"level":"info","ts":"2025-07-04 14:54:46","msg":"watcher's ctx cancel : context canceled"}
+{"level":"info","ts":"2025-07-06 05:19:18","msg":"✅ SQLite connected.","module":"infra/sqlite"}
+{"level":"info","ts":"2025-07-06 05:19:18","msg":"[GIN-debug] POST   /lcu/currentSummoner/getCurrentSummoner --> github.com/B022MC/soraka-backend/internal/service/lcu.(*CurrentSummonerService).GetCurrSummoner-fm (3 handlers)\n"}
+{"level":"info","ts":"2025-07-06 05:19:18","msg":"[gin] server listening on: 0.0.0.0:8200"}
+{"level":"info","ts":"2025-07-06 05:22:16","msg":"[gin] server stopping..."}
+{"level":"info","ts":"2025-07-06 05:22:16","msg":"[gin] server stopped."}
+{"level":"info","ts":"2025-07-06 05:22:16","msg":"🧹 SQLite closed.","module":"infra/sqlite"}
+{"level":"info","ts":"2025-07-06 05:22:16","msg":"watcher's ctx cancel : context canceled"}
+{"level":"info","ts":"2025-07-06 05:22:20","msg":"✅ SQLite connected.","module":"infra/sqlite"}
+{"level":"info","ts":"2025-07-06 05:22:20","msg":"[GIN-debug] POST   /lcu/currentSummoner/getCurrentSummoner --> github.com/B022MC/soraka-backend/internal/service/lcu.(*CurrentSummonerService).GetCurrSummoner-fm (3 handlers)\n"}
+{"level":"info","ts":"2025-07-06 05:22:20","msg":"[gin] server listening on: 0.0.0.0:8200"}
+{"level":"info","ts":"2025-07-06 05:25:53","msg":"[gin] server stopping..."}
+{"level":"info","ts":"2025-07-06 05:25:53","msg":"[gin] server stopped."}
+{"level":"info","ts":"2025-07-06 05:25:53","msg":"🧹 SQLite closed.","module":"infra/sqlite"}
+{"level":"info","ts":"2025-07-06 05:25:53","msg":"watcher's ctx cancel : context canceled"}
+{"level":"info","ts":"2025-07-06 05:25:54","msg":"✅ SQLite connected.","module":"infra/sqlite"}
+{"level":"info","ts":"2025-07-06 05:25:54","msg":"[GIN-debug] POST   /lcu/currentSummoner/getCurrentSummoner --> github.com/B022MC/soraka-backend/internal/service/lcu.(*CurrentSummonerService).GetCurrSummoner-fm (3 handlers)\n"}
+{"level":"info","ts":"2025-07-06 05:25:54","msg":"[gin] server listening on: 0.0.0.0:8200"}
+{"level":"info","ts":"2025-07-06 05:26:37","msg":"[gin] server stopping..."}
+{"level":"info","ts":"2025-07-06 05:26:37","msg":"[gin] server stopped."}
+{"level":"info","ts":"2025-07-06 05:26:37","msg":"🧹 SQLite closed.","module":"infra/sqlite"}
+{"level":"info","ts":"2025-07-06 05:26:37","msg":"watcher's ctx cancel : context canceled"}
+{"level":"info","ts":"2025-07-06 05:26:41","msg":"✅ SQLite connected.","module":"infra/sqlite"}
+{"level":"info","ts":"2025-07-06 05:26:41","msg":"[GIN-debug] POST   /lcu/currentSummoner/getCurrentSummoner --> github.com/B022MC/soraka-backend/internal/service/lcu.(*CurrentSummonerService).GetCurrSummoner-fm (3 handlers)\n"}
+{"level":"info","ts":"2025-07-06 05:26:41","msg":"[gin] server listening on: 0.0.0.0:8200"}
+{"level":"info","ts":"2025-07-06 05:27:37","msg":"检测到 LCU，端口: 56600, Token: iSY0aFWG5gjAVDqaHdIBug","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:28:04","msg":"[gin] server stopping..."}
+{"level":"info","ts":"2025-07-06 05:28:04","msg":"[gin] server stopped."}
+{"level":"info","ts":"2025-07-06 05:28:04","msg":"🧹 SQLite closed.","module":"infra/sqlite"}
+{"level":"info","ts":"2025-07-06 05:28:08","msg":"✅ SQLite connected.","module":"infra/sqlite"}
+{"level":"info","ts":"2025-07-06 05:28:08","msg":"🔌 LCU Client 初始化完成，开始轮询检测客户端进程","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:28:08","msg":"[GIN-debug] POST   /lcu/currentSummoner/getCurrentSummoner --> github.com/B022MC/soraka-backend/internal/service/lcu.(*CurrentSummonerService).GetCurrSummoner-fm (3 handlers)\n"}
+{"level":"info","ts":"2025-07-06 05:28:08","msg":"[gin] server listening on: 0.0.0.0:8200"}
+{"level":"info","ts":"2025-07-06 05:28:10","msg":"检测到 LCU，端口: 56600, Token: iSY0aFWG5gjAVDqaHdIBug","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:29:50","msg":"检测到 LCU 客户端关闭","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:30:14","msg":"检测到 LCU，端口: 64210, Token: YXB18jMNNOtgy_aIo_cnbg","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:10","msg":"[gin] server stopping..."}
+{"level":"info","ts":"2025-07-06 05:37:10","msg":"[gin] server stopped."}
+{"level":"info","ts":"2025-07-06 05:37:10","msg":"🧹 SQLite closed.","module":"infra/sqlite"}
+{"level":"info","ts":"2025-07-06 05:37:10","msg":"watcher's ctx cancel : context canceled"}
+{"level":"info","ts":"2025-07-06 05:37:14","msg":"SQLite connected.","module":"infra/sqlite"}
+{"level":"info","ts":"2025-07-06 05:37:14","msg":"LCU Client 初始化完成，开始轮询检测客户端进程","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:14","msg":"[GIN-debug] POST   /lcu/currentSummoner/getCurrentSummoner --> github.com/B022MC/soraka-backend/internal/service/lcu.(*CurrentSummonerService).GetCurrSummoner-fm (3 handlers)\n"}
+{"level":"info","ts":"2025-07-06 05:37:14","msg":"[gin] server listening on: 0.0.0.0:8200"}
+{"level":"info","ts":"2025-07-06 05:37:16","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:16","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:18","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:20","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:22","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:24","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:26","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:28","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:30","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:32","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:34","msg":"当前游戏阶段：Lobby","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:36","msg":"当前游戏阶段：Lobby","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:38","msg":"当前游戏阶段：Lobby","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:40","msg":"当前游戏阶段：Lobby","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:42","msg":"当前游戏阶段：ChampSelect","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:44","msg":"当前游戏阶段：ChampSelect","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:46","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:48","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:50","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:52","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:54","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:56","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:58","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:00","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:02","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:04","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:06","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:08","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:10","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:12","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:14","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:16","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:18","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:20","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:22","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:24","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:26","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:28","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:30","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:32","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:34","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:36","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:38","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:40","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:42","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:44","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:46","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:48","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:50","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:52","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:54","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:56","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:58","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:39:00","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:39:02","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:39:04","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:39:06","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:39:13","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:39:13","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:39:13","msg":"停止 LCU 客户端检测","module":"infra/lcu"}

@@ -1,8 +1,8 @@
 package router
 
 import (
+	lcuService "github.com/B022MC/soraka-backend/internal/service/lcu"
 	"github.com/gin-gonic/gin"
-	lcuService "soraka-backend/internal/service/lcu"
 )
 
 type LcuRouter struct {

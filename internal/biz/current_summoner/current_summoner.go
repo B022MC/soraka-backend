@@ -1,8 +1,8 @@
 package current_summoner
 
 import (
+	currentSummonerRepo "github.com/B022MC/soraka-backend/internal/dal/repo/current_summoner"
 	"github.com/go-kratos/kratos/v2/log"
-	currentSummonerRepo "soraka-backend/internal/dal/repo/current_summoner"
 )
 
 type CurrentSummonerUseCase struct {

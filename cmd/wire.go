@@ -4,13 +4,13 @@
 package main
 
 import (
-	"soraka-backend/internal/biz"
-	"soraka-backend/internal/conf"
-	"soraka-backend/internal/dal/repo"
-	"soraka-backend/internal/infra"
-	"soraka-backend/internal/router"
-	"soraka-backend/internal/server"
-	"soraka-backend/internal/service"
+	"github.com/B022MC/soraka-backend/internal/biz"
+	"github.com/B022MC/soraka-backend/internal/conf"
+	"github.com/B022MC/soraka-backend/internal/dal/repo"
+	"github.com/B022MC/soraka-backend/internal/infra"
+	"github.com/B022MC/soraka-backend/internal/router"
+	"github.com/B022MC/soraka-backend/internal/server"
+	"github.com/B022MC/soraka-backend/internal/service"
 
 	"github.com/go-kratos/kratos/v2"
 	"github.com/go-kratos/kratos/v2/log"

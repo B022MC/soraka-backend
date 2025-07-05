@@ -1,7 +1,8 @@
 syntax = "proto3";
+
 package kratos.api;
 
-option go_package = "soraka-backend/internal/conf;conf";
+option go_package = "github.com/B022MC/soraka-backend/internal/conf;conf";
 
 import "google/protobuf/duration.proto";
 
@@ -30,15 +31,26 @@ message Data {
 }
 
 message Global {
+  string proxyUrl = 1;
+
   message ProxyIconUrl {
     string profile_icons = 1;
     string champion_icons = 2;
     string spell_icons = 3;
   }
-  message ProxyJsonUrl{
+
+  message ProxyJsonUrl {
     string item_json = 1;
     string spell_json = 2;
     string champ_json = 3;
   }
 
+  message LCU {
+    string base_url = 1;
+    string gameflow_path = 2;
+  }
+
+  ProxyIconUrl proxyIconUrl = 2;
+  ProxyJsonUrl proxyJsonUrl = 3;
+  LCU lcu = 4;
 }

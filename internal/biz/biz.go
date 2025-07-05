@@ -1,8 +1,8 @@
 package biz
 
 import (
+	currentSummonerUseCaseBiz "github.com/B022MC/soraka-backend/internal/biz/current_summoner"
 	"github.com/google/wire"
-	currentSummonerUseCaseBiz "soraka-backend/internal/biz/current_summoner"
 )
 
 var ProviderSet = wire.NewSet(
