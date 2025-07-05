@@ -1,8 +1,8 @@
 package service
 
 import (
+	LcuService "github.com/B022MC/soraka-backend/internal/service/lcu"
 	"github.com/google/wire"
-	LcuService "soraka-backend/internal/service/lcu"
 )
 
 // ProviderSet is service providers.

@@ -1,8 +1,8 @@
 package current_summoner
 
 import (
+	"github.com/B022MC/soraka-backend/internal/infra"
 	"github.com/go-kratos/kratos/v2/log"
-	"soraka-backend/internal/infra"
 )
 
 type CurrentSummonerRepo interface {

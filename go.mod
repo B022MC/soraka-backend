@@ -1,4 +1,4 @@
-module soraka-backend
+module github.com/B022MC/soraka-backend
 
 go 1.24.2
 

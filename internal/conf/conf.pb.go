@@ -172,6 +172,10 @@ func (x *Data) GetDatabase() *Data_Database {
 
 type Global struct {
 	state         protoimpl.MessageState `protogen:"open.v1"`
+	ProxyUrl      string                 `protobuf:"bytes,1,opt,name=proxyUrl,proto3" json:"proxyUrl,omitempty"`
+	ProxyIconUrl  *Global_ProxyIconUrl   `protobuf:"bytes,2,opt,name=proxyIconUrl,proto3" json:"proxyIconUrl,omitempty"`
+	ProxyJsonUrl  *Global_ProxyJsonUrl   `protobuf:"bytes,3,opt,name=proxyJsonUrl,proto3" json:"proxyJsonUrl,omitempty"`
+	Lcu           *Global_LCU            `protobuf:"bytes,4,opt,name=lcu,proto3" json:"lcu,omitempty"`
 	unknownFields protoimpl.UnknownFields
 	sizeCache     protoimpl.SizeCache
 }
@@ -204,6 +208,34 @@ func (x *Global) ProtoReflect() protoreflect.Message {
 // Deprecated: Use Global.ProtoReflect.Descriptor instead.
 func (*Global) Descriptor() ([]byte, []int) {
 	return file_conf_conf_proto_rawDescGZIP(), []int{3}
+}
+
+func (x *Global) GetProxyUrl() string {
+	if x != nil {
+		return x.ProxyUrl
+	}
+	return ""
+}
+
+func (x *Global) GetProxyIconUrl() *Global_ProxyIconUrl {
+	if x != nil {
+		return x.ProxyIconUrl
+	}
+	return nil
+}
+
+func (x *Global) GetProxyJsonUrl() *Global_ProxyJsonUrl {
+	if x != nil {
+		return x.ProxyJsonUrl
+	}
+	return nil
+}
+
+func (x *Global) GetLcu() *Global_LCU {
+	if x != nil {
+		return x.Lcu
+	}
+	return nil
 }
 
 type Server_HTTP struct {
@@ -446,6 +478,58 @@ func (x *Global_ProxyJsonUrl) GetChampJson() string {
 	return ""
 }
 
+type Global_LCU struct {
+	state         protoimpl.MessageState `protogen:"open.v1"`
+	BaseUrl       string                 `protobuf:"bytes,1,opt,name=base_url,json=baseUrl,proto3" json:"base_url,omitempty"`
+	GameflowPath  string                 `protobuf:"bytes,2,opt,name=gameflow_path,json=gameflowPath,proto3" json:"gameflow_path,omitempty"`
+	unknownFields protoimpl.UnknownFields
+	sizeCache     protoimpl.SizeCache
+}
+
+func (x *Global_LCU) Reset() {
+	*x = Global_LCU{}
+	mi := &file_conf_conf_proto_msgTypes[8]
+	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+	ms.StoreMessageInfo(mi)
+}
+
+func (x *Global_LCU) String() string {
+	return protoimpl.X.MessageStringOf(x)
+}
+
+func (*Global_LCU) ProtoMessage() {}
+
+func (x *Global_LCU) ProtoReflect() protoreflect.Message {
+	mi := &file_conf_conf_proto_msgTypes[8]
+	if x != nil {
+		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
+		if ms.LoadMessageInfo() == nil {
+			ms.StoreMessageInfo(mi)
+		}
+		return ms
+	}
+	return mi.MessageOf(x)
+}
+
+// Deprecated: Use Global_LCU.ProtoReflect.Descriptor instead.
+func (*Global_LCU) Descriptor() ([]byte, []int) {
+	return file_conf_conf_proto_rawDescGZIP(), []int{3, 2}
+}
+
+func (x *Global_LCU) GetBaseUrl() string {
+	if x != nil {
+		return x.BaseUrl
+	}
+	return ""
+}
+
+func (x *Global_LCU) GetGameflowPath() string {
+	if x != nil {
+		return x.GameflowPath
+	}
+	return ""
+}
+
 var File_conf_conf_proto protoreflect.FileDescriptor
 
 const file_conf_conf_proto_rawDesc = "" +
@@ -467,8 +551,12 @@ const file_conf_conf_proto_rawDesc = "" +
 	"\bDatabase\x12\x16\n" +
 	"\x06driver\x18\x01 \x01(\tR\x06driver\x12\x16\n" +
 	"\x06source\x18\x02 \x01(\tR\x06source\x12\x14\n" +
-	"\x05alias\x18\x03 \x01(\tR\x05alias\"\xf0\x01\n" +
-	"\x06Global\x1a{\n" +
+	"\x05alias\x18\x03 \x01(\tR\x05alias\"\x87\x04\n" +
+	"\x06Global\x12\x1a\n" +
+	"\bproxyUrl\x18\x01 \x01(\tR\bproxyUrl\x12C\n" +
+	"\fproxyIconUrl\x18\x02 \x01(\v2\x1f.kratos.api.Global.ProxyIconUrlR\fproxyIconUrl\x12C\n" +
+	"\fproxyJsonUrl\x18\x03 \x01(\v2\x1f.kratos.api.Global.ProxyJsonUrlR\fproxyJsonUrl\x12(\n" +
+	"\x03lcu\x18\x04 \x01(\v2\x16.kratos.api.Global.LCUR\x03lcu\x1a{\n" +
 	"\fProxyIconUrl\x12#\n" +
 	"\rprofile_icons\x18\x01 \x01(\tR\fprofileIcons\x12%\n" +
 	"\x0echampion_icons\x18\x02 \x01(\tR\rchampionIcons\x12\x1f\n" +
@@ -479,7 +567,10 @@ const file_conf_conf_proto_rawDesc = "" +
 	"\n" +
 	"spell_json\x18\x02 \x01(\tR\tspellJson\x12\x1d\n" +
 	"\n" +
-	"champ_json\x18\x03 \x01(\tR\tchampJsonB#Z!soraka-backend/internal/conf;confb\x06proto3"
+	"champ_json\x18\x03 \x01(\tR\tchampJson\x1aE\n" +
+	"\x03LCU\x12\x19\n" +
+	"\bbase_url\x18\x01 \x01(\tR\abaseUrl\x12#\n" +
+	"\rgameflow_path\x18\x02 \x01(\tR\fgameflowPathB5Z3github.com/B022MC/soraka-backend/internal/conf;confb\x06proto3"
 
 var (
 	file_conf_conf_proto_rawDescOnce sync.Once
@@ -493,7 +584,7 @@ func file_conf_conf_proto_rawDescGZIP() []byte {
 	return file_conf_conf_proto_rawDescData
 }
 
-var file_conf_conf_proto_msgTypes = make([]protoimpl.MessageInfo, 8)
+var file_conf_conf_proto_msgTypes = make([]protoimpl.MessageInfo, 9)
 var file_conf_conf_proto_goTypes = []any{
 	(*Bootstrap)(nil),           // 0: kratos.api.Bootstrap
 	(*Server)(nil),              // 1: kratos.api.Server
@@ -503,7 +594,8 @@ var file_conf_conf_proto_goTypes = []any{
 	(*Data_Database)(nil),       // 5: kratos.api.Data.Database
 	(*Global_ProxyIconUrl)(nil), // 6: kratos.api.Global.ProxyIconUrl
 	(*Global_ProxyJsonUrl)(nil), // 7: kratos.api.Global.ProxyJsonUrl
-	(*durationpb.Duration)(nil), // 8: google.protobuf.Duration
+	(*Global_LCU)(nil),          // 8: kratos.api.Global.LCU
+	(*durationpb.Duration)(nil), // 9: google.protobuf.Duration
 }
 var file_conf_conf_proto_depIdxs = []int32{
 	1, // 0: kratos.api.Bootstrap.server:type_name -> kratos.api.Server
@@ -511,12 +603,15 @@ var file_conf_conf_proto_depIdxs = []int32{
 	3, // 2: kratos.api.Bootstrap.global:type_name -> kratos.api.Global
 	4, // 3: kratos.api.Server.http:type_name -> kratos.api.Server.HTTP
 	5, // 4: kratos.api.Data.database:type_name -> kratos.api.Data.Database
-	8, // 5: kratos.api.Server.HTTP.timeout:type_name -> google.protobuf.Duration
-	6, // [6:6] is the sub-list for method output_type
-	6, // [6:6] is the sub-list for method input_type
-	6, // [6:6] is the sub-list for extension type_name
-	6, // [6:6] is the sub-list for extension extendee
-	0, // [0:6] is the sub-list for field type_name
+	6, // 5: kratos.api.Global.proxyIconUrl:type_name -> kratos.api.Global.ProxyIconUrl
+	7, // 6: kratos.api.Global.proxyJsonUrl:type_name -> kratos.api.Global.ProxyJsonUrl
+	8, // 7: kratos.api.Global.lcu:type_name -> kratos.api.Global.LCU
+	9, // 8: kratos.api.Server.HTTP.timeout:type_name -> google.protobuf.Duration
+	9, // [9:9] is the sub-list for method output_type
+	9, // [9:9] is the sub-list for method input_type
+	9, // [9:9] is the sub-list for extension type_name
+	9, // [9:9] is the sub-list for extension extendee
+	0, // [0:9] is the sub-list for field type_name
 }
 
 func init() { file_conf_conf_proto_init() }
@@ -530,7 +625,7 @@ func file_conf_conf_proto_init() {
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
 			RawDescriptor: unsafe.Slice(unsafe.StringData(file_conf_conf_proto_rawDesc), len(file_conf_conf_proto_rawDesc)),
 			NumEnums:      0,
-			NumMessages:   8,
+			NumMessages:   9,
 			NumExtensions: 0,
 			NumServices:   0,
 		},

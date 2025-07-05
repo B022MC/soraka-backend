@@ -4,7 +4,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"go-utils/utils/response"
 
-	currentSummonerUseCaseBiz "soraka-backend/internal/biz/current_summoner"
+	currentSummonerUseCaseBiz "github.com/B022MC/soraka-backend/internal/biz/current_summoner"
 )
 
 type CurrentSummonerService struct {

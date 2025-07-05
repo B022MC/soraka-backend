@@ -3,13 +3,13 @@ package main
 import (
 	"flag"
 	"fmt"
+	"github.com/B022MC/soraka-backend/internal/conf"
 	"github.com/tx7do/kratos-transport/transport/gin"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"os"
 	"path"
 	"path/filepath"
-	"soraka-backend/internal/conf"
 	"time"
 
 	kratoszap "github.com/go-kratos/kratos/contrib/log/zap/v2"

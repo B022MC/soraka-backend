@@ -7,15 +7,15 @@
 package main
 
 import (
+	current_summoner2 "github.com/B022MC/soraka-backend/internal/biz/current_summoner"
+	"github.com/B022MC/soraka-backend/internal/conf"
+	"github.com/B022MC/soraka-backend/internal/dal/repo/current_summoner"
+	"github.com/B022MC/soraka-backend/internal/infra"
+	"github.com/B022MC/soraka-backend/internal/router"
+	"github.com/B022MC/soraka-backend/internal/server"
+	"github.com/B022MC/soraka-backend/internal/service/lcu"
 	"github.com/go-kratos/kratos/v2"
 	"github.com/go-kratos/kratos/v2/log"
-	current_summoner2 "soraka-backend/internal/biz/current_summoner"
-	"soraka-backend/internal/conf"
-	"soraka-backend/internal/dal/repo/current_summoner"
-	"soraka-backend/internal/infra"
-	"soraka-backend/internal/router"
-	"soraka-backend/internal/server"
-	"soraka-backend/internal/service/lcu"
 )
 
 import (
@@ -30,7 +30,8 @@ func wireApp(global *conf.Global, confServer *conf.Server, data *conf.Data, logg
 	if err != nil {
 		return nil, nil, err
 	}
-	infraData, cleanup2, err := infra.NewData(data, db)
+	client := infra.NewLCUClient(logger, global)
+	infraData, cleanup2, err := infra.NewData(data, db, client)
 	if err != nil {
 		cleanup()
 		return nil, nil, err

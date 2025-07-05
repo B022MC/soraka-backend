@@ -1,22 +1,22 @@
-GOHOSTOS:=$(shell go env GOHOSTOS)
-GOPATH:=$(shell go env GOPATH)
-VERSION=$(shell git describe --tags --always)
+GOHOSTOS := $(shell go env GOHOSTOS)
+GOPATH := $(shell go env GOPATH)
+VERSION := $(shell git describe --tags --always)
 
 ifeq ($(GOHOSTOS), windows)
-	#the `find.exe` is different from `find` in bash/shell.
-	#to see https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/find.
-	#changed to use git-bash.exe to run find cli or other cli friendly, caused of every developer has a Git.
-	#Git_Bash= $(subst cmd\,bin\bash.exe,$(dir $(shell where git)))
-	Git_Bash=$(subst \,/,$(subst cmd\,bin\bash.exe,$(dir $(shell where git))))
-	INTERNAL_PROTO_FILES=$(shell $(Git_Bash) -c "find internal -name *.proto")
-	API_PROTO_FILES=$(shell $(Git_Bash) -c "find api -name *.proto")
+	MKDIR = if not exist bin mkdir bin
+	BINARY = bin/soraka-backend.exe
+	Git_Bash = $(subst \,/,$(subst cmd\,bin\bash.exe,$(dir $(shell where git))))
+	INTERNAL_PROTO_FILES := $(shell $(Git_Bash) -c "find internal -name *.proto")
+#	API_PROTO_FILES := $(shell $(Git_Bash) -c "find api -name *.proto")
 else
-	INTERNAL_PROTO_FILES=$(shell find internal -name *.proto)
-	API_PROTO_FILES=$(shell find api -name *.proto)
+	MKDIR = mkdir -p bin
+	BINARY = bin/soraka-backend
+	INTERNAL_PROTO_FILES := $(shell find internal -name *.proto)
+#	API_PROTO_FILES := $(shell find api -name *.proto)
 endif
 
 .PHONY: init
-# init env
+# 初始化依赖工具
 init:
 	go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
 	go install github.com/go-kratos/kratos/cmd/kratos/v2@latest
@@ -28,57 +28,63 @@ wire:
 	cd ./cmd && wire .
 
 .PHONY: config
-# generate internal proto
+# 生成 internal proto 文件
 config:
 	protoc --proto_path=./internal \
 	       --proto_path=./third_party \
- 	       --go_out=paths=source_relative:./internal \
+	       --go_out=paths=source_relative:./internal \
 	       $(INTERNAL_PROTO_FILES)
 
 .PHONY: api
-# generate api proto
+# 生成 api proto 文件
 api:
 	protoc --proto_path=./api \
 	       --proto_path=./third_party \
- 	       --go_out=paths=source_relative:./api \
- 	       --go-http_out=paths=source_relative:./api \
- 	       --go-grpc_out=paths=source_relative:./api \
+	       --go_out=paths=source_relative:./api \
+	       --go-http_out=paths=source_relative:./api \
+	       --go-grpc_out=paths=source_relative:./api \
 	       --openapi_out=fq_schema_naming=true,default_response=false:. \
 	       $(API_PROTO_FILES)
 
-.PHONY: build
-# build
-build:
-	mkdir -p bin/ && go build -ldflags "-X main.Version=$(VERSION)" -o ./bin/ ./...
-
 .PHONY: generate
-# generate
+# 自动生成代码 + mod tidy
 generate:
 	go generate ./...
 	go mod tidy
 
+.PHONY: build
+# 构建后端可执行文件
+build:
+	if not exist bin mkdir bin
+	go build -ldflags "-X main.Version=$(VERSION)" -o bin/soraka-backend.exe ./cmd
 .PHONY: all
-# generate all
+# 一键生成 proto 和构建程序
 all:
-	make api;
-	make config;
-	make wire;
-	make generate;
+	make api
+	make config
+	make wire
+	make generate
+	make build
 
+.PHONY: clean
+# 清理构建产物
+clean:
+	rm -rf bin
 
-# show help
+.PHONY: help
+# 显示帮助
 help:
 	@echo ''
 	@echo 'Usage:'
-	@echo ' make [target]'
+	@echo '  make [target]'
 	@echo ''
 	@echo 'Targets:'
 	@awk '/^[a-zA-Z\-\_0-9]+:/ { \
-	helpMessage = match(lastLine, /^# (.*)/); \
+		helpMessage = match(lastLine, /^# (.*)/); \
 		if (helpMessage) { \
 			helpCommand = substr($$1, 0, index($$1, ":")); \
 			helpMessage = substr(lastLine, RSTART + 2, RLENGTH); \
-			printf "\033[36m%-22s\033[0m %s\n", helpCommand,helpMessage; \
+			printf "\033[36m%-22s\033[0m %s\n", helpCommand, helpMessage; \
 		} \
 	} \
 	{ lastLine = $$0 }' $(MAKEFILE_LIST)

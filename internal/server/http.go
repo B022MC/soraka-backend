@@ -1,12 +1,12 @@
 package server
 
 import (
+	"github.com/B022MC/soraka-backend/internal/conf"
+	"github.com/B022MC/soraka-backend/internal/router"
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/go-kratos/kratos/v2/middleware/recovery"
 	"github.com/go-kratos/kratos/v2/transport/http"
 	"github.com/tx7do/kratos-transport/transport/gin"
-	"soraka-backend/internal/conf"
-	"soraka-backend/internal/router"
 )
 
 // NewHTTPServer new an HTTP server.

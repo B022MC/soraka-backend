@@ -1,3 +1,1724 @@
 {"level":"info","ts":"2025-07-04 01:08:17","msg":"✅ SQLite connected.","module":"infra/sqlite"}
 {"level":"info","ts":"2025-07-04 01:08:17","msg":"[GIN-debug] POST   /lcu/currentSummoner/getCurrentSummoner --> soraka-backend/internal/service/lcu.(*CurrentSummonerService).GetCurrSummoner-fm (3 handlers)\n"}
 {"level":"info","ts":"2025-07-04 01:08:17","msg":"[gin] server listening on: 0.0.0.0:8200"}
+{"level":"info","ts":"2025-07-04 14:54:46","msg":"[gin] server stopping..."}
+{"level":"info","ts":"2025-07-04 14:54:46","msg":"[gin] server stopped."}
+{"level":"info","ts":"2025-07-04 14:54:46","msg":"🧹 SQLite closed.","module":"infra/sqlite"}
+{"level":"info","ts":"2025-07-04 14:54:46","msg":"watcher's ctx cancel : context canceled"}
+{"level":"info","ts":"2025-07-06 05:19:18","msg":"✅ SQLite connected.","module":"infra/sqlite"}
+{"level":"info","ts":"2025-07-06 05:19:18","msg":"[GIN-debug] POST   /lcu/currentSummoner/getCurrentSummoner --> github.com/B022MC/soraka-backend/internal/service/lcu.(*CurrentSummonerService).GetCurrSummoner-fm (3 handlers)\n"}
+{"level":"info","ts":"2025-07-06 05:19:18","msg":"[gin] server listening on: 0.0.0.0:8200"}
+{"level":"info","ts":"2025-07-06 05:22:16","msg":"[gin] server stopping..."}
+{"level":"info","ts":"2025-07-06 05:22:16","msg":"[gin] server stopped."}
+{"level":"info","ts":"2025-07-06 05:22:16","msg":"🧹 SQLite closed.","module":"infra/sqlite"}
+{"level":"info","ts":"2025-07-06 05:22:16","msg":"watcher's ctx cancel : context canceled"}
+{"level":"info","ts":"2025-07-06 05:22:20","msg":"✅ SQLite connected.","module":"infra/sqlite"}
+{"level":"info","ts":"2025-07-06 05:22:20","msg":"[GIN-debug] POST   /lcu/currentSummoner/getCurrentSummoner --> github.com/B022MC/soraka-backend/internal/service/lcu.(*CurrentSummonerService).GetCurrSummoner-fm (3 handlers)\n"}
+{"level":"info","ts":"2025-07-06 05:22:20","msg":"[gin] server listening on: 0.0.0.0:8200"}
+{"level":"info","ts":"2025-07-06 05:25:53","msg":"[gin] server stopping..."}
+{"level":"info","ts":"2025-07-06 05:25:53","msg":"[gin] server stopped."}
+{"level":"info","ts":"2025-07-06 05:25:53","msg":"🧹 SQLite closed.","module":"infra/sqlite"}
+{"level":"info","ts":"2025-07-06 05:25:53","msg":"watcher's ctx cancel : context canceled"}
+{"level":"info","ts":"2025-07-06 05:25:54","msg":"✅ SQLite connected.","module":"infra/sqlite"}
+{"level":"info","ts":"2025-07-06 05:25:54","msg":"[GIN-debug] POST   /lcu/currentSummoner/getCurrentSummoner --> github.com/B022MC/soraka-backend/internal/service/lcu.(*CurrentSummonerService).GetCurrSummoner-fm (3 handlers)\n"}
+{"level":"info","ts":"2025-07-06 05:25:54","msg":"[gin] server listening on: 0.0.0.0:8200"}
+{"level":"info","ts":"2025-07-06 05:26:37","msg":"[gin] server stopping..."}
+{"level":"info","ts":"2025-07-06 05:26:37","msg":"[gin] server stopped."}
+{"level":"info","ts":"2025-07-06 05:26:37","msg":"🧹 SQLite closed.","module":"infra/sqlite"}
+{"level":"info","ts":"2025-07-06 05:26:37","msg":"watcher's ctx cancel : context canceled"}
+{"level":"info","ts":"2025-07-06 05:26:41","msg":"✅ SQLite connected.","module":"infra/sqlite"}
+{"level":"info","ts":"2025-07-06 05:26:41","msg":"[GIN-debug] POST   /lcu/currentSummoner/getCurrentSummoner --> github.com/B022MC/soraka-backend/internal/service/lcu.(*CurrentSummonerService).GetCurrSummoner-fm (3 handlers)\n"}
+{"level":"info","ts":"2025-07-06 05:26:41","msg":"[gin] server listening on: 0.0.0.0:8200"}
+{"level":"info","ts":"2025-07-06 05:27:37","msg":"检测到 LCU，端口: 56600, Token: iSY0aFWG5gjAVDqaHdIBug","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:28:04","msg":"[gin] server stopping..."}
+{"level":"info","ts":"2025-07-06 05:28:04","msg":"[gin] server stopped."}
+{"level":"info","ts":"2025-07-06 05:28:04","msg":"🧹 SQLite closed.","module":"infra/sqlite"}
+{"level":"info","ts":"2025-07-06 05:28:08","msg":"✅ SQLite connected.","module":"infra/sqlite"}
+{"level":"info","ts":"2025-07-06 05:28:08","msg":"🔌 LCU Client 初始化完成，开始轮询检测客户端进程","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:28:08","msg":"[GIN-debug] POST   /lcu/currentSummoner/getCurrentSummoner --> github.com/B022MC/soraka-backend/internal/service/lcu.(*CurrentSummonerService).GetCurrSummoner-fm (3 handlers)\n"}
+{"level":"info","ts":"2025-07-06 05:28:08","msg":"[gin] server listening on: 0.0.0.0:8200"}
+{"level":"info","ts":"2025-07-06 05:28:10","msg":"检测到 LCU，端口: 56600, Token: iSY0aFWG5gjAVDqaHdIBug","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:29:50","msg":"检测到 LCU 客户端关闭","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:30:14","msg":"检测到 LCU，端口: 64210, Token: YXB18jMNNOtgy_aIo_cnbg","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:10","msg":"[gin] server stopping..."}
+{"level":"info","ts":"2025-07-06 05:37:10","msg":"[gin] server stopped."}
+{"level":"info","ts":"2025-07-06 05:37:10","msg":"🧹 SQLite closed.","module":"infra/sqlite"}
+{"level":"info","ts":"2025-07-06 05:37:10","msg":"watcher's ctx cancel : context canceled"}
+{"level":"info","ts":"2025-07-06 05:37:14","msg":"SQLite connected.","module":"infra/sqlite"}
+{"level":"info","ts":"2025-07-06 05:37:14","msg":"LCU Client 初始化完成，开始轮询检测客户端进程","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:14","msg":"[GIN-debug] POST   /lcu/currentSummoner/getCurrentSummoner --> github.com/B022MC/soraka-backend/internal/service/lcu.(*CurrentSummonerService).GetCurrSummoner-fm (3 handlers)\n"}
+{"level":"info","ts":"2025-07-06 05:37:14","msg":"[gin] server listening on: 0.0.0.0:8200"}
+{"level":"info","ts":"2025-07-06 05:37:16","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:16","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:18","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:20","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:22","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:24","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:26","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:28","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:30","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:32","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:34","msg":"当前游戏阶段：Lobby","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:36","msg":"当前游戏阶段：Lobby","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:38","msg":"当前游戏阶段：Lobby","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:40","msg":"当前游戏阶段：Lobby","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:42","msg":"当前游戏阶段：ChampSelect","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:44","msg":"当前游戏阶段：ChampSelect","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:46","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:48","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:50","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:52","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:54","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:56","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:37:58","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:00","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:02","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:04","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:06","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:08","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:10","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:12","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:14","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:16","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:18","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:20","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:22","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:24","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:26","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:28","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:30","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:32","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:34","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:36","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:38","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:40","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:42","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:44","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:46","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:48","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:50","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:52","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:54","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:56","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:38:58","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:39:00","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:39:02","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:39:04","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:39:06","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:39:13","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:39:13","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:39:13","msg":"停止 LCU 客户端检测","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:42:48","msg":"[gin] server stopping..."}
+{"level":"info","ts":"2025-07-06 05:42:48","msg":"[gin] server stopped."}
+{"level":"info","ts":"2025-07-06 05:42:48","msg":"🧹 SQLite closed.","module":"infra/sqlite"}
+{"level":"info","ts":"2025-07-06 05:42:48","msg":"watcher's ctx cancel : context canceled"}
+{"level":"info","ts":"2025-07-06 05:42:51","msg":"SQLite connected.","module":"infra/sqlite"}
+{"level":"info","ts":"2025-07-06 05:42:51","msg":"LCU Client 初始化完成，开始轮询检测客户端进程","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:42:51","msg":"[GIN-debug] POST   /lcu/currentSummoner/getCurrentSummoner --> github.com/B022MC/soraka-backend/internal/service/lcu.(*CurrentSummonerService).GetCurrSummoner-fm (3 handlers)\n"}
+{"level":"info","ts":"2025-07-06 05:42:51","msg":"[gin] server listening on: 0.0.0.0:8200"}
+{"level":"info","ts":"2025-07-06 05:42:53","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:42:53","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:42:55","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:42:57","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:42:59","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:43:01","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:43:03","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:43:05","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:43:07","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:43:09","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:43:11","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:43:13","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:43:15","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:43:17","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:43:19","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:43:21","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:43:23","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:43:25","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:43:27","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:43:29","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:43:31","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:43:33","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:43:35","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:43:37","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:43:39","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:43:41","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:43:43","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:43:45","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:43:47","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:43:49","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:43:51","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:43:53","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:43:55","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:43:57","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:43:59","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:44:01","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:44:03","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:44:05","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:44:07","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:44:09","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:44:11","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:44:13","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:44:15","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:44:17","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:44:19","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:44:21","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:44:23","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:44:25","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:44:27","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:44:29","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:44:31","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:44:33","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:44:35","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:44:37","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:44:39","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:44:41","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:44:43","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:44:50","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:44:50","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:44:51","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:44:51","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:44:56","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:44:56","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:44:56","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:44:56","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:44:58","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:44:58","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:44:58","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:44:58","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:44:58","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:45:02","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:45:02","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:02","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:02","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:45:04","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:45:04","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:04","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:04","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:04","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:45:05","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:45:05","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:05","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:06","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:06","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:45:08","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:45:08","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:08","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:08","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:08","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:45:10","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:45:10","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:10","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:10","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:10","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:45:11","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:45:11","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:11","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:11","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:11","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:45:14","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:45:14","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:14","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:14","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:45:16","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:45:16","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:16","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:16","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:16","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:45:17","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:45:17","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:17","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:17","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:17","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:45:18","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:45:18","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:18","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:18","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:18","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:45:20","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:45:20","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:20","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:20","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:20","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:45:22","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:45:22","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:22","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:22","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:22","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:45:23","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:45:23","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:23","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:23","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:23","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:45:24","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:45:24","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:24","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:24","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:24","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:45:26","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:45:26","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:26","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:26","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:26","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:45:28","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:45:28","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:28","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:28","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:28","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:45:29","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:45:29","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:29","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:29","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:29","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:45:30","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:45:30","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:30","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:30","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:30","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:45:32","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:45:32","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:32","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:32","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:32","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:45:34","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:45:34","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:34","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:34","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:34","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:45:35","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:45:35","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:35","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:35","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:35","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:45:36","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:45:36","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:36","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:36","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:36","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:45:38","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:45:38","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:38","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:38","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:38","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:45:40","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:45:40","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:40","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:40","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:40","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:45:41","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:45:41","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:41","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:41","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:41","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:45:42","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:45:42","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:42","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:42","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:42","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:45:43","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": dial tcp 127.0.0.1:64210: connectex: No connection could be made because the target machine actively refused it.","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:45:43","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:43","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:43","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:43","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:45:44","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:45:44","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:44","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:44","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:44","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:44","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:45:45","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": dial tcp 127.0.0.1:64210: connectex: No connection could be made because the target machine actively refused it.","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:45:45","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:45","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:45","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:45","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:45:46","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:45:46","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:46","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:46","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:46","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:46","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:45:47","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": dial tcp 127.0.0.1:64210: connectex: No connection could be made because the target machine actively refused it.","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:45:47","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:47","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:47","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:47","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:45:47","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:45:47","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:47","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:47","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:47","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:47","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:45:48","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": dial tcp 127.0.0.1:64210: connectex: No connection could be made because the target machine actively refused it.","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:45:48","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:48","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:48","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:48","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:45:50","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": dial tcp 127.0.0.1:64210: connectex: No connection could be made because the target machine actively refused it.","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:45:50","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:50","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:50","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:50","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:45:52","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": dial tcp 127.0.0.1:64210: connectex: No connection could be made because the target machine actively refused it.","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:45:52","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:52","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:52","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:52","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:45:54","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": dial tcp 127.0.0.1:64210: connectex: No connection could be made because the target machine actively refused it.","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:45:54","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:54","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:54","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:54","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:45:56","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": dial tcp 127.0.0.1:64210: connectex: No connection could be made because the target machine actively refused it.","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:45:56","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:56","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:56","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:56","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:45:58","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": dial tcp 127.0.0.1:64210: connectex: No connection could be made because the target machine actively refused it.","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:45:58","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:58","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:58","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:45:58","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:46:00","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": dial tcp 127.0.0.1:64210: connectex: No connection could be made because the target machine actively refused it.","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:46:00","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:00","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:00","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:00","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:46:02","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": dial tcp 127.0.0.1:64210: connectex: No connection could be made because the target machine actively refused it.","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:46:02","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:02","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:02","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:02","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:46:04","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": dial tcp 127.0.0.1:64210: connectex: No connection could be made because the target machine actively refused it.","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:46:04","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:04","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:04","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:04","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:46:06","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": dial tcp 127.0.0.1:64210: connectex: No connection could be made because the target machine actively refused it.","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:46:06","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:06","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:06","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:06","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:46:08","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": dial tcp 127.0.0.1:64210: connectex: No connection could be made because the target machine actively refused it.","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:46:08","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:08","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:08","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:08","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:46:10","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": dial tcp 127.0.0.1:64210: connectex: No connection could be made because the target machine actively refused it.","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:46:10","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:10","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:10","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:10","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:46:12","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": dial tcp 127.0.0.1:64210: connectex: No connection could be made because the target machine actively refused it.","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:46:12","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:12","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:12","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:12","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:46:14","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": dial tcp 127.0.0.1:64210: connectex: No connection could be made because the target machine actively refused it.","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:46:14","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:14","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:14","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:14","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:46:16","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": dial tcp 127.0.0.1:64210: connectex: No connection could be made because the target machine actively refused it.","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:46:16","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:16","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:16","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:16","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:17","msg":"[gin] server stopping..."}
+{"level":"info","ts":"2025-07-06 05:46:17","msg":"[gin] server stopped."}
+{"level":"info","ts":"2025-07-06 05:46:17","msg":"🧹 SQLite closed.","module":"infra/sqlite"}
+{"level":"info","ts":"2025-07-06 05:46:17","msg":"watcher's ctx cancel : context canceled"}
+{"level":"info","ts":"2025-07-06 05:46:20","msg":"SQLite connected.","module":"infra/sqlite"}
+{"level":"info","ts":"2025-07-06 05:46:20","msg":"LCU Client 初始化完成，开始检测客户端进程","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:20","msg":"[GIN-debug] POST   /lcu/currentSummoner/getCurrentSummoner --> github.com/B022MC/soraka-backend/internal/service/lcu.(*CurrentSummonerService).GetCurrSummoner-fm (3 handlers)\n"}
+{"level":"info","ts":"2025-07-06 05:46:20","msg":"[gin] server listening on: 0.0.0.0:8200"}
+{"level":"info","ts":"2025-07-06 05:46:22","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:22","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:24","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:26","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:28","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:30","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:32","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:34","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:36","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:38","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:39","msg":"[gin] server stopping..."}
+{"level":"info","ts":"2025-07-06 05:46:39","msg":"[gin] server stopped."}
+{"level":"info","ts":"2025-07-06 05:46:39","msg":"SQLite closed.","module":"infra/sqlite"}
+{"level":"info","ts":"2025-07-06 05:46:39","msg":"watcher's ctx cancel : context canceled"}
+{"level":"info","ts":"2025-07-06 05:46:42","msg":"SQLite connected.","module":"infra/sqlite"}
+{"level":"info","ts":"2025-07-06 05:46:42","msg":"LCU Client 初始化完成，开始检测客户端进程","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:42","msg":"[GIN-debug] POST   /lcu/currentSummoner/getCurrentSummoner --> github.com/B022MC/soraka-backend/internal/service/lcu.(*CurrentSummonerService).GetCurrSummoner-fm (3 handlers)\n"}
+{"level":"info","ts":"2025-07-06 05:46:42","msg":"[gin] server listening on: 0.0.0.0:8200"}
+{"level":"info","ts":"2025-07-06 05:46:44","msg":"检测到 LCU，端口: 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:44","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:45","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:46","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:47","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:48","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:49","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:50","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:51","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:52","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:53","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:54","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:55","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:56","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:57","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:58","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:46:59","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:47:00","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:47:01","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:47:02","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:47:03","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:47:04","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:47:05","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:47:06","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:47:07","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:47:08","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:47:09","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:47:10","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:47:11","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:47:12","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:47:13","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:47:14","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:47:15","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:47:16","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:47:17","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:47:18","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:47:19","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:47:20","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:47:21","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:47:22","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:47:23","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:47:24","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:47:25","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:47:26","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:47:27","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:47:28","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:47:29","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:47:30","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:47:31","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:47:32","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:47:33","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:47:34","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:47:35","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:47:36","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:47:37","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:47:38","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:47:39","msg":"当前游戏阶段：None","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:47:45","msg":"拉取游戏阶段失败: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:47:45","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:47:45","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:47:45","msg":"检测循环退出","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:51:32","msg":"[gin] server stopping..."}
+{"level":"info","ts":"2025-07-06 05:51:32","msg":"[gin] server stopped."}
+{"level":"info","ts":"2025-07-06 05:51:32","msg":"SQLite closed.","module":"infra/sqlite"}
+{"level":"info","ts":"2025-07-06 05:51:32","msg":"watcher's ctx cancel : context canceled"}
+{"level":"info","ts":"2025-07-06 05:51:35","msg":"SQLite connected.","module":"infra/sqlite"}
+{"level":"info","ts":"2025-07-06 05:51:35","msg":"LCU Client 初始化完成，开始检测客户端进程","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:51:35","msg":"[GIN-debug] POST   /lcu/currentSummoner/getCurrentSummoner --> github.com/B022MC/soraka-backend/internal/service/lcu.(*CurrentSummonerService).GetCurrSummoner-fm (3 handlers)\n"}
+{"level":"info","ts":"2025-07-06 05:51:35","msg":"[gin] server listening on: 0.0.0.0:8200"}
+{"level":"info","ts":"2025-07-06 05:51:37","msg":"检测到 LCU，端口 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:51:37","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:51:39","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:51:41","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:51:43","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:51:45","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:51:47","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:51:49","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:51:51","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:51:53","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:51:55","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:51:57","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:51:59","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:52:01","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:52:03","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:52:05","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:52:07","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:52:09","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:52:11","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:52:13","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:52:15","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:52:17","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:52:19","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:52:21","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:52:23","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:52:25","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:52:27","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:52:29","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:52:31","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:52:33","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:52:35","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:52:37","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:52:39","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:52:41","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:52:43","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:52:45","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:52:47","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:52:49","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:52:51","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:52:53","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:52:55","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:52:57","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:52:59","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:53:01","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:53:03","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:53:05","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:53:07","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:53:09","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:53:11","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:53:13","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:53:15","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:53:17","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:53:19","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:53:21","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:53:23","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:53:25","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:53:27","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:53:34","msg":"请求失败（第 1 次）: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:53:39","msg":"请求失败（第 2 次）: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)","module":"infra/lcu"}
+{"level":"error","ts":"2025-07-06 05:53:44","msg":"连续失败 3 次，断开连接: 发送请求失败: Get \"https://127.0.0.1:64210/lol-gameflow/v1/gameflow-phase\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 05:53:44","msg":"检测到断开连接，停止轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:53:44","msg":"停止游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:53:44","msg":"检测循环退出","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:56:01","msg":"[gin] server stopping..."}
+{"level":"info","ts":"2025-07-06 05:56:01","msg":"[gin] server stopped."}
+{"level":"info","ts":"2025-07-06 05:56:01","msg":"SQLite closed.","module":"infra/sqlite"}
+{"level":"info","ts":"2025-07-06 05:56:01","msg":"watcher's ctx cancel : context canceled"}
+{"level":"info","ts":"2025-07-06 05:56:04","msg":"SQLite connected.","module":"infra/sqlite"}
+{"level":"info","ts":"2025-07-06 05:56:04","msg":"LCU Client 初始化完成，开始检测客户端进程","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:56:04","msg":"[GIN-debug] POST   /lcu/currentSummoner/getCurrentSummoner --> github.com/B022MC/soraka-backend/internal/service/lcu.(*CurrentSummonerService).GetCurrSummoner-fm (3 handlers)\n"}
+{"level":"info","ts":"2025-07-06 05:56:04","msg":"[gin] server listening on: 0.0.0.0:8200"}
+{"level":"info","ts":"2025-07-06 05:56:06","msg":"检测到 LCU，端口 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:56:06","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:56:08","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:56:10","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:56:12","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:56:14","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:56:16","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:56:18","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:56:20","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:56:22","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:56:24","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:56:26","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:56:28","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:56:30","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:56:32","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:56:34","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:56:36","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:56:38","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:56:40","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:56:42","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:56:44","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:56:46","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:56:48","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:56:50","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:56:52","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:56:54","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:56:56","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:56:58","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:57:00","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:57:02","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:57:04","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:57:06","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:57:08","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:57:10","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:57:12","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:57:14","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:57:16","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:57:18","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:57:20","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:57:22","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:57:24","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:57:26","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:57:28","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:57:30","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:57:32","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:57:34","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:57:36","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:57:38","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:57:40","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:57:42","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:57:44","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:57:46","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:57:48","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:57:50","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:57:52","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:57:54","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:57:56","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:57:58","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:58:00","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:58:02","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:58:04","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:58:06","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:58:08","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:58:10","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:58:12","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:58:14","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:58:16","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:58:18","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:58:20","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:58:22","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:58:24","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:58:26","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:58:28","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:58:30","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:58:32","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:58:34","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:58:36","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:58:38","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:58:40","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:58:42","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:58:44","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:58:46","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:58:48","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:58:50","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:58:52","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:58:54","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:58:56","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:58:58","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:59:00","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:59:02","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:59:04","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:59:06","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:59:08","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:59:10","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:59:12","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:59:14","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:59:16","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:59:18","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:59:20","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:59:22","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:59:24","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:59:26","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:59:28","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:59:30","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:59:32","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:59:34","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:59:36","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:59:38","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:59:40","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:59:42","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:59:44","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:59:46","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:59:48","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:59:50","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:59:52","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:59:54","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:59:56","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 05:59:58","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:00:00","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:00:02","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:00:04","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:00:06","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:00:08","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:00:10","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:00:12","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:00:14","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:00:16","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:00:18","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:00:20","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:00:22","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:00:24","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:00:26","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:00:28","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:00:30","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:00:32","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:00:34","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:00:36","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:00:38","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:00:40","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:00:42","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:00:44","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:00:46","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:00:48","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:00:50","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:00:52","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:00:54","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:00:56","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:00:58","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:01:00","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:01:02","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:01:04","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:01:06","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:01:08","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:01:10","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:01:12","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:01:14","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:01:16","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:01:18","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:01:20","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:01:22","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:01:24","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:01:26","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:01:28","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:01:30","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:01:32","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:01:34","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:01:36","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:01:38","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:01:40","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:01:42","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:01:44","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:01:46","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:01:48","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:01:50","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:01:52","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:01:54","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:01:56","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:01:58","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:02:00","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:02:02","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:02:04","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:02:06","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:02:08","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:02:10","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:02:12","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:02:14","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:02:16","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:02:18","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:02:20","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:02:22","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:02:24","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:02:26","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:02:28","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:02:30","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:02:32","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:02:34","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:02:36","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:02:38","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:02:40","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:02:42","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:02:44","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:02:46","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:02:48","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:02:50","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:02:52","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:02:54","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:02:56","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:02:58","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:03:00","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:03:02","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:03:04","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:03:06","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:03:08","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:03:10","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:03:12","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:03:14","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:03:16","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:03:18","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:03:20","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:03:22","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:03:24","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:03:26","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:03:28","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:03:30","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:03:32","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:03:34","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:03:36","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:03:38","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:03:40","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:03:42","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:03:44","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:03:46","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:03:48","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:03:50","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:03:52","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:03:54","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:03:56","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:03:58","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:04:00","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:04:02","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:04:04","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:04:06","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:04:08","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:04:10","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:04:12","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:04:14","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:04:16","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:04:18","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:04:20","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:04:22","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:04:24","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:04:26","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:04:28","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:04:30","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:04:32","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:04:34","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:04:36","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:04:38","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:04:40","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:04:42","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:04:44","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:04:46","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:04:48","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:04:50","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:04:52","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:04:54","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:04:56","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:04:58","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:05:00","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:05:02","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:05:04","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:05:06","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:05:08","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:05:10","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:05:12","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:05:14","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:05:16","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:05:18","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:05:20","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:05:22","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:05:24","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:05:26","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:05:28","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:05:30","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:05:32","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:05:34","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:05:36","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:05:38","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:05:40","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:05:42","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:05:44","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:05:46","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:05:48","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:05:50","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:05:52","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:05:54","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:05:56","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:05:58","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:06:00","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:06:02","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:06:04","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:06:06","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:06:08","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:06:10","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:06:12","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:06:14","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:06:16","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:06:18","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:06:20","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:06:22","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:06:24","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:06:26","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:06:28","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:06:30","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:06:32","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:06:34","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:06:36","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:06:38","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:06:40","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:06:42","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:06:44","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:06:46","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:06:48","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:06:50","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:06:52","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:06:54","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:06:56","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:06:58","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:07:00","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:07:02","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:07:04","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:07:06","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:07:08","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:07:10","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:07:12","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:07:14","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:07:16","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:07:18","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:07:20","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:07:22","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:07:24","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:07:26","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:07:28","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:07:30","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:07:32","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:07:34","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:07:36","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:07:38","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:07:40","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:07:42","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:07:44","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:07:46","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:07:48","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:07:50","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:07:52","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:07:54","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:07:56","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:07:58","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:08:00","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:08:02","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:08:04","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:08:06","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:08:08","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:08:10","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:08:12","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:08:14","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:08:16","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:08:18","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:08:20","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:08:22","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:08:24","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:08:26","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:08:28","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:08:30","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:08:32","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:08:34","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:08:36","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:08:38","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:08:40","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:08:42","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:08:44","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:08:46","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:08:48","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:08:50","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:08:52","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:08:54","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:08:56","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:08:58","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:09:00","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:09:02","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:09:04","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:09:06","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:09:08","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:09:10","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:09:12","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:09:14","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:09:16","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:09:18","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:09:20","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:09:22","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:09:24","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:09:26","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:09:28","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:09:30","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:09:32","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:09:34","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:09:36","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:09:38","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:09:40","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:09:42","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:09:44","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:09:46","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:09:48","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:09:50","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:09:52","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:09:54","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:09:56","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:09:58","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:10:00","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:10:02","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:10:04","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:10:06","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:10:08","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:10:10","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:10:12","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:10:14","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:10:16","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:10:18","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:10:20","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:10:22","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:10:24","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:10:26","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:10:28","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:10:30","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:10:32","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:10:34","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:10:36","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:10:38","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:10:40","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:10:42","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:10:44","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:10:46","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:10:48","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:10:50","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:10:52","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:10:54","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:10:56","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:10:58","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:11:00","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:11:02","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:11:04","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:11:06","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:11:08","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:11:10","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:11:12","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:11:14","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:11:16","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:11:18","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:11:20","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:11:22","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:11:24","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:11:26","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:11:28","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:11:30","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:11:32","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:11:34","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:11:36","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:11:38","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:11:40","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:11:42","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:11:44","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:11:46","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:11:48","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:11:50","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:11:52","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:11:54","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:11:56","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:11:58","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:12:00","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:12:02","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:12:04","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:12:06","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:12:08","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:12:10","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:12:12","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:12:14","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:12:16","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:12:18","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:12:20","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:12:22","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:12:24","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:12:26","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:12:28","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:12:30","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:12:32","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:12:34","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:12:36","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:12:38","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:12:40","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:12:42","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:12:44","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:12:46","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:12:48","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:12:50","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:12:52","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:12:54","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:12:56","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:12:58","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:13:00","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:13:02","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:13:04","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:13:06","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:13:08","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:13:10","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:13:12","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:13:14","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:13:16","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:13:18","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:13:20","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:13:22","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:13:24","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:13:26","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:13:28","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:13:30","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:13:32","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:13:34","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:13:36","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:13:38","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:13:40","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:13:42","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:13:44","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:13:46","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:13:48","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:13:50","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:13:52","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:13:54","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:13:56","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:13:58","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:14:00","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:14:02","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:14:04","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:14:06","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:14:08","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:14:10","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:14:12","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:14:14","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:14:16","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:14:18","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:14:20","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:14:22","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:14:24","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:14:26","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:14:28","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:14:30","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:14:32","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:14:34","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:14:36","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:14:38","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:14:40","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:14:42","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:14:44","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:14:46","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:14:48","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:14:50","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:14:52","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:14:54","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:14:56","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:14:58","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:15:00","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:15:02","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:15:04","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:15:06","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:15:08","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:15:10","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:15:12","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:15:14","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:15:16","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:15:18","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:15:20","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:15:22","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:15:24","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:15:26","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:15:28","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:15:30","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:15:32","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:15:34","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:15:36","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:15:38","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:15:40","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:15:42","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:15:44","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:15:46","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:15:48","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:15:50","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:15:52","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:15:54","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:15:56","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:15:58","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:16:00","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:16:02","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:16:04","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:16:06","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:16:08","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:16:10","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:16:12","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:16:14","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:16:16","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:16:18","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:16:20","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:16:22","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:16:24","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:16:26","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:16:28","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:16:30","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:16:32","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:16:34","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:16:36","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:16:38","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:16:40","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:16:42","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:16:44","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:16:46","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:16:48","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:16:50","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:16:52","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:16:54","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:16:56","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:16:58","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:17:00","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:17:02","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:17:04","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:17:06","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:17:08","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:17:10","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:17:12","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:17:14","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:17:16","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:17:18","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:17:20","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:17:22","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:17:24","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:17:26","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:17:28","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:17:30","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:17:32","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:17:34","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:17:36","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:17:38","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:17:40","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:17:42","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:17:44","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:17:46","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:17:48","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:17:50","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:17:52","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:17:54","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:17:56","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:17:58","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:18:00","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:18:02","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:18:04","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:18:06","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:18:08","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:18:10","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:18:12","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:18:14","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:18:16","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:18:18","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:18:20","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:18:22","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:18:24","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:18:26","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:18:28","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:18:30","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:18:32","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:18:34","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:18:36","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:18:38","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:18:40","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:18:42","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:18:44","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:18:46","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:18:48","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:18:50","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:18:52","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:18:54","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:18:56","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:18:58","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:19:00","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:19:02","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:19:04","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:19:06","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:19:08","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:19:10","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:19:12","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:19:14","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:19:16","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:19:18","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:19:20","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:19:22","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:19:24","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:19:26","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:19:28","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:19:30","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:19:32","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:19:34","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:19:36","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:19:38","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:19:40","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:19:42","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:19:44","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:19:46","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:19:48","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:19:50","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:19:52","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:19:54","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:19:56","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:19:58","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:20:00","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:20:02","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:20:04","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:20:06","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:20:08","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:20:10","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:20:12","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:20:14","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:20:16","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:20:18","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:20:20","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:20:22","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:20:24","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:20:26","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:20:28","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:20:30","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:20:32","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:20:34","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:20:36","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:20:38","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:20:40","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:20:42","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:20:44","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:20:46","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:20:48","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:20:50","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:20:52","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:20:54","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:20:56","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:20:58","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:21:00","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:21:02","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:21:04","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:21:06","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:21:08","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:21:10","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:21:12","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:21:14","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:21:16","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:21:18","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:21:20","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:21:22","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:21:24","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:21:26","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:21:28","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:21:30","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:21:32","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:21:34","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:21:36","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:21:38","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:21:40","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:21:42","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:21:44","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:21:46","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:21:48","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:21:50","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:21:52","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:21:54","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:21:56","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:21:58","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:22:00","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:22:02","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:22:04","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:22:06","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:22:08","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:22:10","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:22:12","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:22:14","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:22:16","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:22:18","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:22:20","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:22:22","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:22:24","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:22:26","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:22:28","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:22:30","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:22:32","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:22:34","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:22:36","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:22:38","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:22:40","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:22:42","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:22:44","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:22:46","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:22:48","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:22:50","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:22:52","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:22:54","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:22:56","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:22:58","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:23:00","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:23:02","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:23:04","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:23:06","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:23:08","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:23:10","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:23:12","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:23:14","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:23:16","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:23:18","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:23:20","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:23:22","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:23:24","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:23:26","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:23:28","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:23:30","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:23:32","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:23:34","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:23:36","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:23:38","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:23:40","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:23:42","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:23:44","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:23:46","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:23:48","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:23:50","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:23:52","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:23:54","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:23:56","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:23:58","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:24:00","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:24:02","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:24:04","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:24:06","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:24:08","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:24:10","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:24:12","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:24:14","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:24:16","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:24:18","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:24:20","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:24:22","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:24:24","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:24:26","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:24:28","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:24:30","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:24:32","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:24:34","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:24:36","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:24:38","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:24:40","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:24:42","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:24:44","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:24:46","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:24:48","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:24:50","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:24:52","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:24:54","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:24:56","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:24:58","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:25:00","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:25:02","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:25:04","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:25:06","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:25:08","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:25:10","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:25:12","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:25:14","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:25:16","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:25:18","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:25:20","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:25:22","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:25:24","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:25:26","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:25:28","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:25:30","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:25:32","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:25:34","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:25:36","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:25:38","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:25:40","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:25:42","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:25:44","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:25:46","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:25:48","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:25:50","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:25:52","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:25:54","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:25:56","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:25:58","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:26:00","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:26:02","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:26:04","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:26:06","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:26:08","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:26:10","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:26:12","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:26:14","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:26:16","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:26:18","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:26:20","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:26:22","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:26:24","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:26:26","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:26:28","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:26:30","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:26:32","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:26:34","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:26:36","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:26:38","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:26:40","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:26:42","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:26:44","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:26:46","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:26:48","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:26:50","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:26:52","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:26:54","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:26:56","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:26:58","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:27:00","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:27:02","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:27:04","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:27:06","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:27:08","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:27:10","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:27:12","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:27:14","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:27:16","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:27:18","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:27:20","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:27:22","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:27:24","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:27:26","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:27:28","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:27:30","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:27:32","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:27:34","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:27:36","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:27:38","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:27:40","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:27:42","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:27:44","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:27:46","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:27:48","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:27:50","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:27:52","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:27:54","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:27:56","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:27:58","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:28:00","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:28:02","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:28:04","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:28:06","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:28:08","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:28:10","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:28:12","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:28:14","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:28:16","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:28:18","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:28:20","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:28:22","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:28:24","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:28:26","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:28:28","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:28:30","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:28:32","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:28:34","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:28:36","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:28:38","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:28:40","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:28:42","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:28:44","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:28:46","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:28:48","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:28:50","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:28:52","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:28:54","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:28:56","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:28:58","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:29:00","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:29:02","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:29:04","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:29:06","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:29:08","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:29:10","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:29:12","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:29:14","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:29:16","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:29:18","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:29:20","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:29:22","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:29:24","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:29:26","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:29:28","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:29:30","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:29:32","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:29:34","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:29:36","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:29:38","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:29:40","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:29:42","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:29:44","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:29:46","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:29:48","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:29:50","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:29:52","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:29:54","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:29:56","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:29:58","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:30:00","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:30:02","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:30:04","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:30:06","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:30:08","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:30:10","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:30:12","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:30:14","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:30:16","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:30:18","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:30:20","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:30:22","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:30:24","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:30:26","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:30:28","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:30:30","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:30:32","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:30:34","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:30:36","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:30:38","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:30:40","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:30:42","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:30:44","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:30:46","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:30:48","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:30:50","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:30:52","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:30:54","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:30:56","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:30:58","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:31:00","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:31:02","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:31:04","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:31:06","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:31:08","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:31:10","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:31:12","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:31:14","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:31:16","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:31:18","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:31:20","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:31:22","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:31:24","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:31:26","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:31:28","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:31:30","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:31:32","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:31:34","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:31:36","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:31:38","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:31:40","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:31:42","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:31:44","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:31:46","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:31:48","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:31:50","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:31:52","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:31:54","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:31:56","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:31:58","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:32:00","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:32:02","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:32:04","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:32:06","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:32:08","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:32:10","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:32:12","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:32:14","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:32:16","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:32:18","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:32:20","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:32:22","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:32:24","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:32:26","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:32:28","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:32:29","msg":"[gin] server stopping..."}
+{"level":"info","ts":"2025-07-06 06:32:29","msg":"[gin] server stopped."}
+{"level":"info","ts":"2025-07-06 06:32:29","msg":"SQLite closed.","module":"infra/sqlite"}
+{"level":"info","ts":"2025-07-06 06:32:29","msg":"watcher's ctx cancel : context canceled"}
+{"level":"info","ts":"2025-07-06 06:32:32","msg":"SQLite connected.","module":"infra/sqlite"}
+{"level":"info","ts":"2025-07-06 06:32:32","msg":"LCU Client 初始化完成，开始检测客户端进程","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:32:32","msg":"[GIN-debug] POST   /lcu/currentSummoner/getCurrentSummoner --> github.com/B022MC/soraka-backend/internal/service/lcu.(*CurrentSummonerService).GetCurrSummoner-fm (3 handlers)\n"}
+{"level":"info","ts":"2025-07-06 06:32:32","msg":"[gin] server listening on: 0.0.0.0:8200"}
+{"level":"info","ts":"2025-07-06 06:32:34","msg":"检测到 LCU，端口 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:32:34","msg":"首次连接成功，开始初始化图标资源","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:32:34","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"warn","ts":"2025-07-06 06:32:34","msg":"图标资源初始化失败: [item] 下载失败: 发送请求失败（https://127.0.0.1:64210https://127.0.0.1:64210/lol-game-data/assets/v1/items.json）: Get \"https://127.0.0.1:64210https//127.0.0.1:64210/lol-game-data/assets/v1/items.json\": dial tcp: lookup 127.0.0.1:64210https: no such host","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:32:36","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:32:38","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:32:40","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:32:42","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:32:44","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:32:46","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:32:48","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:32:49","msg":"[gin] server stopping..."}
+{"level":"info","ts":"2025-07-06 06:32:49","msg":"[gin] server stopped."}
+{"level":"info","ts":"2025-07-06 06:32:49","msg":"SQLite closed.","module":"infra/sqlite"}
+{"level":"info","ts":"2025-07-06 06:32:49","msg":"watcher's ctx cancel : context canceled"}
+{"level":"info","ts":"2025-07-06 06:33:22","msg":"SQLite connected.","module":"infra/sqlite"}
+{"level":"info","ts":"2025-07-06 06:33:22","msg":"LCU Client 初始化完成，开始检测客户端进程","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:33:22","msg":"[GIN-debug] POST   /lcu/currentSummoner/getCurrentSummoner --> github.com/B022MC/soraka-backend/internal/service/lcu.(*CurrentSummonerService).GetCurrSummoner-fm (3 handlers)\n"}
+{"level":"info","ts":"2025-07-06 06:33:22","msg":"[gin] server listening on: 0.0.0.0:8200"}
+{"level":"info","ts":"2025-07-06 06:33:24","msg":"检测到 LCU，端口 64210","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:33:24","msg":"首次连接成功，开始初始化图标资源","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:33:24","msg":"启动游戏状态轮询","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:33:24","msg":"图标资源初始化完成","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:33:26","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:33:28","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:33:30","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:33:32","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:33:34","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:33:36","msg":"当前游戏阶段: None","module":"infra/lcu"}
+{"level":"info","ts":"2025-07-06 06:33:37","msg":"[gin] server stopping..."}
+{"level":"info","ts":"2025-07-06 06:33:37","msg":"[gin] server stopped."}
+{"level":"info","ts":"2025-07-06 06:33:37","msg":"SQLite closed.","module":"infra/sqlite"}
+{"level":"info","ts":"2025-07-06 06:33:37","msg":"watcher's ctx cancel : context canceled"}

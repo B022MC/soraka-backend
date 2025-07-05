@@ -1,8 +1,8 @@
 package repo
 
 import (
+	currentSummonerRepo "github.com/B022MC/soraka-backend/internal/dal/repo/current_summoner"
 	"github.com/google/wire"
-	currentSummonerRepo "soraka-backend/internal/dal/repo/current_summoner"
 )
 
 var ProviderSet = wire.NewSet(
