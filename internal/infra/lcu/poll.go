@@ -49,11 +49,15 @@ func (c *Client) pollStatus() {
 		c.failCount++
 		if c.failCount >= maxConsecutiveFailures {
 			c.log.Errorf("连续失败 %d 次，断开连接: %v", maxConsecutiveFailures, err)
-			c.setDisconnectedLocked()
+			changed := c.setDisconnectedLocked()
+			c.mu.Unlock()
+			if changed {
+				c.broadcastPhase("None")
+			}
 		} else {
 			c.log.Warnf("请求失败（第 %d 次）: %v", c.failCount, err)
+			c.mu.Unlock()
 		}
-		c.mu.Unlock()
 		return
 	}
 
@@ -64,9 +68,14 @@ func (c *Client) pollStatus() {
 	}
 
 	c.mu.Lock()
+	changed := phase != c.GamePhase
 	c.GamePhase = phase
 	c.failCount = 0
 	c.mu.Unlock()
+
+	if changed {
+		c.broadcastPhase(phase)
+	}
 
 	c.log.Infof("当前游戏阶段: %s", phase)
 }

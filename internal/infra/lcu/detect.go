@@ -31,13 +31,16 @@ func (c *Client) tryDetectClient() {
 	port, token, err := getLolClientApiInfo()
 
 	c.mu.Lock()
-	defer c.mu.Unlock()
 
 	if err != nil {
 		if c.Connected {
 			c.log.Warn("LCU 客户端已关闭")
 		}
-		c.setDisconnectedLocked()
+		changed := c.setDisconnectedLocked()
+		c.mu.Unlock()
+		if changed {
+			c.broadcastPhase("None")
+		}
 		return
 	}
 
@@ -50,6 +53,7 @@ func (c *Client) tryDetectClient() {
 	c.Connected = true
 	c.Port = port
 	c.Token = token
+	c.mu.Unlock()
 }
 
 func getLolClientApiInfo() (port int, token string, err error) {

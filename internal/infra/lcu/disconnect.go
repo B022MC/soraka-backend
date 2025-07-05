@@ -2,11 +2,15 @@ package lcu
 
 func (c *Client) setDisconnected() {
 	c.mu.Lock()
-	defer c.mu.Unlock()
-	c.setDisconnectedLocked()
+	changed := c.setDisconnectedLocked()
+	c.mu.Unlock()
+	if changed {
+		c.broadcastPhase("None")
+	}
 }
 
-func (c *Client) setDisconnectedLocked() {
+func (c *Client) setDisconnectedLocked() bool {
+	changed := c.GamePhase != "None"
 	if c.Polling {
 		c.log.Warn("检测到断开连接，停止轮询")
 		c.stopPollingLocked()
@@ -16,6 +20,7 @@ func (c *Client) setDisconnectedLocked() {
 	c.Port = 0
 	c.GamePhase = "None"
 	c.failCount = 0
+	return changed
 }
 
 func (c *Client) StopPolling() {

@@ -8,8 +8,10 @@ package main
 
 import (
 	current_summoner2 "github.com/B022MC/soraka-backend/internal/biz/current_summoner"
+	gamePhaseBiz "github.com/B022MC/soraka-backend/internal/biz/game_phase"
 	"github.com/B022MC/soraka-backend/internal/conf"
-	"github.com/B022MC/soraka-backend/internal/dal/repo/current_summoner"
+	currentSummonerRepo "github.com/B022MC/soraka-backend/internal/dal/repo/current_summoner"
+	gamePhaseRepo "github.com/B022MC/soraka-backend/internal/dal/repo/game_phase"
 	"github.com/B022MC/soraka-backend/internal/infra"
 	"github.com/B022MC/soraka-backend/internal/router"
 	"github.com/B022MC/soraka-backend/internal/server"
@@ -36,10 +38,13 @@ func wireApp(global *conf.Global, confServer *conf.Server, data *conf.Data, logg
 		cleanup()
 		return nil, nil, err
 	}
-	currentSummonerRepo := current_summoner.NewCurrentSummonerRepo(infraData, logger)
-	currentSummonerUseCase := current_summoner2.NewCurrentSummonerUseCase(currentSummonerRepo, logger)
+	currentSummonerRepository := currentSummonerRepo.NewCurrentSummonerRepo(infraData, logger)
+	gamePhaseRepository := gamePhaseRepo.NewGamePhaseRepo(infraData, logger)
+	currentSummonerUseCase := current_summoner2.NewCurrentSummonerUseCase(currentSummonerRepository, logger)
+	gamePhaseUseCase := gamePhaseBiz.NewGamePhaseUseCase(gamePhaseRepository, logger)
 	currentSummonerService := lcu.NewCurrentSummonerService(currentSummonerUseCase)
-	lcuRouter := router.NewLcuRouter(currentSummonerService)
+	gamePhaseService := lcu.NewGamePhaseService(gamePhaseUseCase)
+	lcuRouter := router.NewLcuRouter(currentSummonerService, gamePhaseService)
 	rootRouter := router.NewRootRouter(lcuRouter)
 	ginServer := server.NewHTTPServer(confServer, logger, rootRouter)
 	app := newApp(logger, ginServer)
