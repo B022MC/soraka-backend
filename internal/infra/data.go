@@ -45,7 +45,7 @@ func NewSQLite(c *conf.Data, logger log.Logger) (*gorm.DB, func(), error) {
 		sqlDB, err := db.DB()
 		if err == nil {
 			_ = sqlDB.Close()
-			helper.Info("🧹 SQLite closed.")
+			helper.Info("SQLite closed.")
 		}
 	}
 
