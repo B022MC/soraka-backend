@@ -7,12 +7,15 @@
 package main
 
 import (
+	client2 "github.com/B022MC/soraka-backend/internal/biz/client"
 	current_summoner2 "github.com/B022MC/soraka-backend/internal/biz/current_summoner"
 	"github.com/B022MC/soraka-backend/internal/conf"
+	"github.com/B022MC/soraka-backend/internal/dal/repo/client"
 	"github.com/B022MC/soraka-backend/internal/dal/repo/current_summoner"
 	"github.com/B022MC/soraka-backend/internal/infra"
 	"github.com/B022MC/soraka-backend/internal/router"
 	"github.com/B022MC/soraka-backend/internal/server"
+	client3 "github.com/B022MC/soraka-backend/internal/service/client"
 	"github.com/B022MC/soraka-backend/internal/service/lcu"
 	"github.com/go-kratos/kratos/v2"
 	"github.com/go-kratos/kratos/v2/log"
@@ -30,8 +33,8 @@ func wireApp(global *conf.Global, confServer *conf.Server, data *conf.Data, logg
 	if err != nil {
 		return nil, nil, err
 	}
-	client := infra.NewLCUClient(logger, global)
-	infraData, cleanup2, err := infra.NewData(data, db, client)
+	lcuClient := infra.NewLCUClient(logger, global)
+	infraData, cleanup2, err := infra.NewData(data, db, lcuClient)
 	if err != nil {
 		cleanup()
 		return nil, nil, err
@@ -40,7 +43,11 @@ func wireApp(global *conf.Global, confServer *conf.Server, data *conf.Data, logg
 	currentSummonerUseCase := current_summoner2.NewCurrentSummonerUseCase(currentSummonerRepo, logger)
 	currentSummonerService := lcu.NewCurrentSummonerService(currentSummonerUseCase)
 	lcuRouter := router.NewLcuRouter(currentSummonerService)
-	rootRouter := router.NewRootRouter(lcuRouter)
+	clientInfoRepo := client.NewClientInfoRepo(infraData, logger)
+	clientInfoUseCase := client2.NewClientUseCase(clientInfoRepo, logger)
+	clientInfoService := client3.NewClientInfoService(clientInfoUseCase)
+	clientRouter := router.NewClientRouter(clientInfoService)
+	rootRouter := router.NewRootRouter(lcuRouter, clientRouter)
 	ginServer := server.NewHTTPServer(confServer, logger, rootRouter)
 	app := newApp(logger, ginServer)
 	return app, func() {

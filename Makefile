@@ -34,6 +34,9 @@ config:
 	       --proto_path=./third_party \
 	       --go_out=paths=source_relative:./internal \
 	       $(INTERNAL_PROTO_FILES)
+.PHONY: swag
+swag:
+	swag init -g ./cmd/main.go -o ./docs
 
 .PHONY: api
 # 生成 api proto 文件

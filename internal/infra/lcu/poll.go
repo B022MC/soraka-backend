@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-const maxConsecutiveFailures = 3
+const maxConsecutiveFailures = 30
 
 func (c *Client) StartPolling() {
 	c.mu.Lock()

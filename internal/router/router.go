@@ -8,22 +8,25 @@ import (
 var ProviderSet = wire.NewSet(
 	NewRootRouter,
 	NewLcuRouter,
+	NewClientRouter,
 )
 
 type RootRouter struct {
-	lcuRouter *LcuRouter
+	lcuRouter    *LcuRouter
+	clientRouter *ClientRouter
 }
 
 func (g *RootRouter) InitRouter(group *gin.RouterGroup) {
-
 	g.lcuRouter.InitRouter(group)
-
+	g.clientRouter.InitRouter(group)
 }
 
 func NewRootRouter(
 	lcuRouter *LcuRouter,
+	clientRouter *ClientRouter,
 ) *RootRouter {
 	return &RootRouter{
-		lcuRouter: lcuRouter,
+		lcuRouter:    lcuRouter,
+		clientRouter: clientRouter,
 	}
 }

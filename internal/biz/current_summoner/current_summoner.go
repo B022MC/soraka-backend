@@ -11,5 +11,5 @@ type CurrentSummonerUseCase struct {
 }
 
 func NewCurrentSummonerUseCase(repo currentSummonerRepo.CurrentSummonerRepo, logger log.Logger) *CurrentSummonerUseCase {
-	return &CurrentSummonerUseCase{repo: repo, log: log.NewHelper(log.With(logger, "module", "use/current_summoner"))}
+	return &CurrentSummonerUseCase{repo: repo, log: log.NewHelper(log.With(logger, "module", "uc/current_summoner"))}
 }

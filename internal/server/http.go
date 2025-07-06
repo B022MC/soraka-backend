@@ -3,10 +3,12 @@ package server
 import (
 	"github.com/B022MC/soraka-backend/internal/conf"
 	"github.com/B022MC/soraka-backend/internal/router"
+	"github.com/gin-contrib/cors"
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/go-kratos/kratos/v2/middleware/recovery"
 	"github.com/go-kratos/kratos/v2/transport/http"
 	"github.com/tx7do/kratos-transport/transport/gin"
+	"time"
 )
 
 // NewHTTPServer new an HTTP server.
@@ -35,5 +37,12 @@ func NewHTTPServer(c *conf.Server, logger log.Logger, router *router.RootRouter)
 }
 
 func initPlugin(srv *gin.Server, logger log.Logger) {
-
+	srv.Use(cors.New(cors.Config{
+		AllowAllOrigins:  true,
+		AllowMethods:     []string{"GET", "POST", "PUT", "DELETE", "OPTIONS"},
+		AllowHeaders:     []string{"Origin", "Content-Type", "Accept", "Authorization"},
+		ExposeHeaders:    []string{"Content-Length"},
+		AllowCredentials: true,
+		MaxAge:           12 * time.Hour,
+	}))
 }
