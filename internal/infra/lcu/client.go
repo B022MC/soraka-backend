@@ -15,7 +15,6 @@ type Client struct {
 	mu         sync.RWMutex
 	Connected  bool
 	GamePhase  string
-	SummonerID int64
 	Token      string
 	Port       int
 	Host       string
@@ -26,6 +25,7 @@ type Client struct {
 	httpClient *http.Client
 	initOnce   sync.Once
 	conf       *conf.Global
+	ClientPath string
 }
 
 func NewClient(logger log.Logger, conf *conf.Global) *Client {
