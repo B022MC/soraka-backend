@@ -12,6 +12,8 @@ import (
 	"github.com/B022MC/soraka-backend/internal/conf"
 	"github.com/B022MC/soraka-backend/internal/dal/repo/client"
 	"github.com/B022MC/soraka-backend/internal/dal/repo/current_summoner"
+	"github.com/B022MC/soraka-backend/internal/dal/repo/match"
+	"github.com/B022MC/soraka-backend/internal/dal/repo/rank"
 	"github.com/B022MC/soraka-backend/internal/infra"
 	"github.com/B022MC/soraka-backend/internal/router"
 	"github.com/B022MC/soraka-backend/internal/server"
@@ -39,8 +41,11 @@ func wireApp(global *conf.Global, confServer *conf.Server, data *conf.Data, logg
 		cleanup()
 		return nil, nil, err
 	}
-	currentSummonerRepo := current_summoner.NewCurrentSummonerRepo(infraData, logger)
-	currentSummonerUseCase := current_summoner2.NewCurrentSummonerUseCase(currentSummonerRepo, logger)
+	currentSummonerRepo := current_summoner.NewCurrentSummonerRepo(infraData, global, logger)
+	rankRepo := rank.NewRankRepo(infraData, global, logger)
+	matchHistoryRepo := match.NewMatchHistoryRepo(infraData, global, logger)
+	gameDetailRepo := match.NewGameDetailRepo(infraData, global, logger)
+	currentSummonerUseCase := current_summoner2.NewCurrentSummonerUseCase(currentSummonerRepo, rankRepo, matchHistoryRepo, gameDetailRepo, logger)
 	currentSummonerService := lcu.NewCurrentSummonerService(currentSummonerUseCase)
 	lcuRouter := router.NewLcuRouter(currentSummonerService)
 	clientInfoRepo := client.NewClientInfoRepo(infraData, logger)

@@ -33,24 +33,24 @@ message Data {
 message Global {
   string proxyUrl = 1;
 
-  message ProxyIconUrl {
-    string profile_icons = 1;
-    string champion_icons = 2;
-    string spell_icons = 3;
-  }
-
   message ProxyJsonUrl {
     string item_json = 1;
     string spell_json = 2;
     string champ_json = 3;
+    string profile_icon_json = 4;
+    string map_icon_json = 5;
   }
 
   message LCU {
     string base_url = 1;
     string gameflow_path = 2;
+    string summoner_path = 3;
+    string summoner_by_name_path = 4;
+    string summoner_puuid_path= 5;
+    string ranked_stats_path= 6;
+    string matchmaking_path = 7;
   }
 
-  ProxyIconUrl proxyIconUrl = 2;
-  ProxyJsonUrl proxyJsonUrl = 3;
-  LCU lcu = 4;
+  ProxyJsonUrl proxyJsonUrl = 2;
+  LCU lcu = 3;
 }

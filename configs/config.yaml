@@ -11,17 +11,18 @@ data:
     alias: sorakaDB
 
 global:
-  proxyUrl: "http://127.0.0.1:8022/lcu/proxy"
-  proxyIconUrl:
-    profile_icons: https://proxy.example.com/icons/profile/
-    champion_icons: https://proxy.example.com/icons/champion/
-    spell_icons: https://proxy.example.com/icons/spell/
-
+  proxyUrl: "/client/proxy"
   proxyJsonUrl:
     item_json: "/lol-game-data/assets/v1/items.json"
     spell_json: "/lol-game-data/assets/v1/summoner-spells.json"
     champ_json: "/lol-game-data/assets/v1/champion-summary.json"
-
+    profile_icon_json: "/lol-game-data/assets/v1/profile-icons.json"
+    map_icon_json: "/lol-game-data/assets/v1/maps.json"
   lcu:
     base_url: "http://127.0.0.1"  # LCU 默认 API 根地址
     gameflow_path: "/lol-gameflow/v1/gameflow-phase"
+    summoner_path: "/lol-summoner/v1/current-summoner"
+    summoner_by_name_path: "/lol-summoner/v1/summoners"
+    summoner_puuid_path: "/lol-summoner/v2/summoners/puuid"
+    ranked_stats_path: "/lol-ranked/v1/ranked-stats"
+    matchmaking_path: "/lol-matchmaking/v1/ready-check/accept"
