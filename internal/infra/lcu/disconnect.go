@@ -28,6 +28,12 @@ func (c *Client) setDisconnectedLocked() {
 	for k := range consts.ChampIconMap {
 		delete(consts.ChampIconMap, k)
 	}
+	for k := range consts.MapIcon {
+		delete(consts.MapIcon, k)
+	}
+	for k := range consts.ProfileIconMap {
+		delete(consts.ProfileIconMap, k)
+	}
 }
 
 func (c *Client) StopPolling() {

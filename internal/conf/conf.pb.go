@@ -173,9 +173,8 @@ func (x *Data) GetDatabase() *Data_Database {
 type Global struct {
 	state         protoimpl.MessageState `protogen:"open.v1"`
 	ProxyUrl      string                 `protobuf:"bytes,1,opt,name=proxyUrl,proto3" json:"proxyUrl,omitempty"`
-	ProxyIconUrl  *Global_ProxyIconUrl   `protobuf:"bytes,2,opt,name=proxyIconUrl,proto3" json:"proxyIconUrl,omitempty"`
-	ProxyJsonUrl  *Global_ProxyJsonUrl   `protobuf:"bytes,3,opt,name=proxyJsonUrl,proto3" json:"proxyJsonUrl,omitempty"`
-	Lcu           *Global_LCU            `protobuf:"bytes,4,opt,name=lcu,proto3" json:"lcu,omitempty"`
+	ProxyJsonUrl  *Global_ProxyJsonUrl   `protobuf:"bytes,2,opt,name=proxyJsonUrl,proto3" json:"proxyJsonUrl,omitempty"`
+	Lcu           *Global_LCU            `protobuf:"bytes,3,opt,name=lcu,proto3" json:"lcu,omitempty"`
 	unknownFields protoimpl.UnknownFields
 	sizeCache     protoimpl.SizeCache
 }
@@ -215,13 +214,6 @@ func (x *Global) GetProxyUrl() string {
 		return x.ProxyUrl
 	}
 	return ""
-}
-
-func (x *Global) GetProxyIconUrl() *Global_ProxyIconUrl {
-	if x != nil {
-		return x.ProxyIconUrl
-	}
-	return nil
 }
 
 func (x *Global) GetProxyJsonUrl() *Global_ProxyJsonUrl {
@@ -358,78 +350,20 @@ func (x *Data_Database) GetAlias() string {
 	return ""
 }
 
-type Global_ProxyIconUrl struct {
-	state         protoimpl.MessageState `protogen:"open.v1"`
-	ProfileIcons  string                 `protobuf:"bytes,1,opt,name=profile_icons,json=profileIcons,proto3" json:"profile_icons,omitempty"`
-	ChampionIcons string                 `protobuf:"bytes,2,opt,name=champion_icons,json=championIcons,proto3" json:"champion_icons,omitempty"`
-	SpellIcons    string                 `protobuf:"bytes,3,opt,name=spell_icons,json=spellIcons,proto3" json:"spell_icons,omitempty"`
-	unknownFields protoimpl.UnknownFields
-	sizeCache     protoimpl.SizeCache
-}
-
-func (x *Global_ProxyIconUrl) Reset() {
-	*x = Global_ProxyIconUrl{}
-	mi := &file_conf_conf_proto_msgTypes[6]
-	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
-	ms.StoreMessageInfo(mi)
-}
-
-func (x *Global_ProxyIconUrl) String() string {
-	return protoimpl.X.MessageStringOf(x)
-}
-
-func (*Global_ProxyIconUrl) ProtoMessage() {}
-
-func (x *Global_ProxyIconUrl) ProtoReflect() protoreflect.Message {
-	mi := &file_conf_conf_proto_msgTypes[6]
-	if x != nil {
-		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
-		if ms.LoadMessageInfo() == nil {
-			ms.StoreMessageInfo(mi)
-		}
-		return ms
-	}
-	return mi.MessageOf(x)
-}
-
-// Deprecated: Use Global_ProxyIconUrl.ProtoReflect.Descriptor instead.
-func (*Global_ProxyIconUrl) Descriptor() ([]byte, []int) {
-	return file_conf_conf_proto_rawDescGZIP(), []int{3, 0}
-}
-
-func (x *Global_ProxyIconUrl) GetProfileIcons() string {
-	if x != nil {
-		return x.ProfileIcons
-	}
-	return ""
-}
-
-func (x *Global_ProxyIconUrl) GetChampionIcons() string {
-	if x != nil {
-		return x.ChampionIcons
-	}
-	return ""
-}
-
-func (x *Global_ProxyIconUrl) GetSpellIcons() string {
-	if x != nil {
-		return x.SpellIcons
-	}
-	return ""
-}
-
 type Global_ProxyJsonUrl struct {
-	state         protoimpl.MessageState `protogen:"open.v1"`
-	ItemJson      string                 `protobuf:"bytes,1,opt,name=item_json,json=itemJson,proto3" json:"item_json,omitempty"`
-	SpellJson     string                 `protobuf:"bytes,2,opt,name=spell_json,json=spellJson,proto3" json:"spell_json,omitempty"`
-	ChampJson     string                 `protobuf:"bytes,3,opt,name=champ_json,json=champJson,proto3" json:"champ_json,omitempty"`
-	unknownFields protoimpl.UnknownFields
-	sizeCache     protoimpl.SizeCache
+	state           protoimpl.MessageState `protogen:"open.v1"`
+	ItemJson        string                 `protobuf:"bytes,1,opt,name=item_json,json=itemJson,proto3" json:"item_json,omitempty"`
+	SpellJson       string                 `protobuf:"bytes,2,opt,name=spell_json,json=spellJson,proto3" json:"spell_json,omitempty"`
+	ChampJson       string                 `protobuf:"bytes,3,opt,name=champ_json,json=champJson,proto3" json:"champ_json,omitempty"`
+	ProfileIconJson string                 `protobuf:"bytes,4,opt,name=profile_icon_json,json=profileIconJson,proto3" json:"profile_icon_json,omitempty"`
+	MapIconJson     string                 `protobuf:"bytes,5,opt,name=map_icon_json,json=mapIconJson,proto3" json:"map_icon_json,omitempty"`
+	unknownFields   protoimpl.UnknownFields
+	sizeCache       protoimpl.SizeCache
 }
 
 func (x *Global_ProxyJsonUrl) Reset() {
 	*x = Global_ProxyJsonUrl{}
-	mi := &file_conf_conf_proto_msgTypes[7]
+	mi := &file_conf_conf_proto_msgTypes[6]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -441,7 +375,7 @@ func (x *Global_ProxyJsonUrl) String() string {
 func (*Global_ProxyJsonUrl) ProtoMessage() {}
 
 func (x *Global_ProxyJsonUrl) ProtoReflect() protoreflect.Message {
-	mi := &file_conf_conf_proto_msgTypes[7]
+	mi := &file_conf_conf_proto_msgTypes[6]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -454,7 +388,7 @@ func (x *Global_ProxyJsonUrl) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use Global_ProxyJsonUrl.ProtoReflect.Descriptor instead.
 func (*Global_ProxyJsonUrl) Descriptor() ([]byte, []int) {
-	return file_conf_conf_proto_rawDescGZIP(), []int{3, 1}
+	return file_conf_conf_proto_rawDescGZIP(), []int{3, 0}
 }
 
 func (x *Global_ProxyJsonUrl) GetItemJson() string {
@@ -478,17 +412,36 @@ func (x *Global_ProxyJsonUrl) GetChampJson() string {
 	return ""
 }
 
+func (x *Global_ProxyJsonUrl) GetProfileIconJson() string {
+	if x != nil {
+		return x.ProfileIconJson
+	}
+	return ""
+}
+
+func (x *Global_ProxyJsonUrl) GetMapIconJson() string {
+	if x != nil {
+		return x.MapIconJson
+	}
+	return ""
+}
+
 type Global_LCU struct {
-	state         protoimpl.MessageState `protogen:"open.v1"`
-	BaseUrl       string                 `protobuf:"bytes,1,opt,name=base_url,json=baseUrl,proto3" json:"base_url,omitempty"`
-	GameflowPath  string                 `protobuf:"bytes,2,opt,name=gameflow_path,json=gameflowPath,proto3" json:"gameflow_path,omitempty"`
-	unknownFields protoimpl.UnknownFields
-	sizeCache     protoimpl.SizeCache
+	state              protoimpl.MessageState `protogen:"open.v1"`
+	BaseUrl            string                 `protobuf:"bytes,1,opt,name=base_url,json=baseUrl,proto3" json:"base_url,omitempty"`
+	GameflowPath       string                 `protobuf:"bytes,2,opt,name=gameflow_path,json=gameflowPath,proto3" json:"gameflow_path,omitempty"`
+	SummonerPath       string                 `protobuf:"bytes,3,opt,name=summoner_path,json=summonerPath,proto3" json:"summoner_path,omitempty"`
+	SummonerByNamePath string                 `protobuf:"bytes,4,opt,name=summoner_by_name_path,json=summonerByNamePath,proto3" json:"summoner_by_name_path,omitempty"`
+	SummonerPuuidPath  string                 `protobuf:"bytes,5,opt,name=summoner_puuid_path,json=summonerPuuidPath,proto3" json:"summoner_puuid_path,omitempty"`
+	RankedStatsPath    string                 `protobuf:"bytes,6,opt,name=ranked_stats_path,json=rankedStatsPath,proto3" json:"ranked_stats_path,omitempty"`
+	MatchmakingPath    string                 `protobuf:"bytes,7,opt,name=matchmaking_path,json=matchmakingPath,proto3" json:"matchmaking_path,omitempty"`
+	unknownFields      protoimpl.UnknownFields
+	sizeCache          protoimpl.SizeCache
 }
 
 func (x *Global_LCU) Reset() {
 	*x = Global_LCU{}
-	mi := &file_conf_conf_proto_msgTypes[8]
+	mi := &file_conf_conf_proto_msgTypes[7]
 	ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 	ms.StoreMessageInfo(mi)
 }
@@ -500,7 +453,7 @@ func (x *Global_LCU) String() string {
 func (*Global_LCU) ProtoMessage() {}
 
 func (x *Global_LCU) ProtoReflect() protoreflect.Message {
-	mi := &file_conf_conf_proto_msgTypes[8]
+	mi := &file_conf_conf_proto_msgTypes[7]
 	if x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -513,7 +466,7 @@ func (x *Global_LCU) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use Global_LCU.ProtoReflect.Descriptor instead.
 func (*Global_LCU) Descriptor() ([]byte, []int) {
-	return file_conf_conf_proto_rawDescGZIP(), []int{3, 2}
+	return file_conf_conf_proto_rawDescGZIP(), []int{3, 1}
 }
 
 func (x *Global_LCU) GetBaseUrl() string {
@@ -526,6 +479,41 @@ func (x *Global_LCU) GetBaseUrl() string {
 func (x *Global_LCU) GetGameflowPath() string {
 	if x != nil {
 		return x.GameflowPath
+	}
+	return ""
+}
+
+func (x *Global_LCU) GetSummonerPath() string {
+	if x != nil {
+		return x.SummonerPath
+	}
+	return ""
+}
+
+func (x *Global_LCU) GetSummonerByNamePath() string {
+	if x != nil {
+		return x.SummonerByNamePath
+	}
+	return ""
+}
+
+func (x *Global_LCU) GetSummonerPuuidPath() string {
+	if x != nil {
+		return x.SummonerPuuidPath
+	}
+	return ""
+}
+
+func (x *Global_LCU) GetRankedStatsPath() string {
+	if x != nil {
+		return x.RankedStatsPath
+	}
+	return ""
+}
+
+func (x *Global_LCU) GetMatchmakingPath() string {
+	if x != nil {
+		return x.MatchmakingPath
 	}
 	return ""
 }
@@ -551,26 +539,27 @@ const file_conf_conf_proto_rawDesc = "" +
 	"\bDatabase\x12\x16\n" +
 	"\x06driver\x18\x01 \x01(\tR\x06driver\x12\x16\n" +
 	"\x06source\x18\x02 \x01(\tR\x06source\x12\x14\n" +
-	"\x05alias\x18\x03 \x01(\tR\x05alias\"\x87\x04\n" +
+	"\x05alias\x18\x03 \x01(\tR\x05alias\"\xf6\x04\n" +
 	"\x06Global\x12\x1a\n" +
 	"\bproxyUrl\x18\x01 \x01(\tR\bproxyUrl\x12C\n" +
-	"\fproxyIconUrl\x18\x02 \x01(\v2\x1f.kratos.api.Global.ProxyIconUrlR\fproxyIconUrl\x12C\n" +
-	"\fproxyJsonUrl\x18\x03 \x01(\v2\x1f.kratos.api.Global.ProxyJsonUrlR\fproxyJsonUrl\x12(\n" +
-	"\x03lcu\x18\x04 \x01(\v2\x16.kratos.api.Global.LCUR\x03lcu\x1a{\n" +
-	"\fProxyIconUrl\x12#\n" +
-	"\rprofile_icons\x18\x01 \x01(\tR\fprofileIcons\x12%\n" +
-	"\x0echampion_icons\x18\x02 \x01(\tR\rchampionIcons\x12\x1f\n" +
-	"\vspell_icons\x18\x03 \x01(\tR\n" +
-	"spellIcons\x1ai\n" +
+	"\fproxyJsonUrl\x18\x02 \x01(\v2\x1f.kratos.api.Global.ProxyJsonUrlR\fproxyJsonUrl\x12(\n" +
+	"\x03lcu\x18\x03 \x01(\v2\x16.kratos.api.Global.LCUR\x03lcu\x1a\xb9\x01\n" +
 	"\fProxyJsonUrl\x12\x1b\n" +
 	"\titem_json\x18\x01 \x01(\tR\bitemJson\x12\x1d\n" +
 	"\n" +
 	"spell_json\x18\x02 \x01(\tR\tspellJson\x12\x1d\n" +
 	"\n" +
-	"champ_json\x18\x03 \x01(\tR\tchampJson\x1aE\n" +
+	"champ_json\x18\x03 \x01(\tR\tchampJson\x12*\n" +
+	"\x11profile_icon_json\x18\x04 \x01(\tR\x0fprofileIconJson\x12\"\n" +
+	"\rmap_icon_json\x18\x05 \x01(\tR\vmapIconJson\x1a\xa4\x02\n" +
 	"\x03LCU\x12\x19\n" +
 	"\bbase_url\x18\x01 \x01(\tR\abaseUrl\x12#\n" +
-	"\rgameflow_path\x18\x02 \x01(\tR\fgameflowPathB5Z3github.com/B022MC/soraka-backend/internal/conf;confb\x06proto3"
+	"\rgameflow_path\x18\x02 \x01(\tR\fgameflowPath\x12#\n" +
+	"\rsummoner_path\x18\x03 \x01(\tR\fsummonerPath\x121\n" +
+	"\x15summoner_by_name_path\x18\x04 \x01(\tR\x12summonerByNamePath\x12.\n" +
+	"\x13summoner_puuid_path\x18\x05 \x01(\tR\x11summonerPuuidPath\x12*\n" +
+	"\x11ranked_stats_path\x18\x06 \x01(\tR\x0frankedStatsPath\x12)\n" +
+	"\x10matchmaking_path\x18\a \x01(\tR\x0fmatchmakingPathB5Z3github.com/B022MC/soraka-backend/internal/conf;confb\x06proto3"
 
 var (
 	file_conf_conf_proto_rawDescOnce sync.Once
@@ -584,7 +573,7 @@ func file_conf_conf_proto_rawDescGZIP() []byte {
 	return file_conf_conf_proto_rawDescData
 }
 
-var file_conf_conf_proto_msgTypes = make([]protoimpl.MessageInfo, 9)
+var file_conf_conf_proto_msgTypes = make([]protoimpl.MessageInfo, 8)
 var file_conf_conf_proto_goTypes = []any{
 	(*Bootstrap)(nil),           // 0: kratos.api.Bootstrap
 	(*Server)(nil),              // 1: kratos.api.Server
@@ -592,10 +581,9 @@ var file_conf_conf_proto_goTypes = []any{
 	(*Global)(nil),              // 3: kratos.api.Global
 	(*Server_HTTP)(nil),         // 4: kratos.api.Server.HTTP
 	(*Data_Database)(nil),       // 5: kratos.api.Data.Database
-	(*Global_ProxyIconUrl)(nil), // 6: kratos.api.Global.ProxyIconUrl
-	(*Global_ProxyJsonUrl)(nil), // 7: kratos.api.Global.ProxyJsonUrl
-	(*Global_LCU)(nil),          // 8: kratos.api.Global.LCU
-	(*durationpb.Duration)(nil), // 9: google.protobuf.Duration
+	(*Global_ProxyJsonUrl)(nil), // 6: kratos.api.Global.ProxyJsonUrl
+	(*Global_LCU)(nil),          // 7: kratos.api.Global.LCU
+	(*durationpb.Duration)(nil), // 8: google.protobuf.Duration
 }
 var file_conf_conf_proto_depIdxs = []int32{
 	1, // 0: kratos.api.Bootstrap.server:type_name -> kratos.api.Server
@@ -603,15 +591,14 @@ var file_conf_conf_proto_depIdxs = []int32{
 	3, // 2: kratos.api.Bootstrap.global:type_name -> kratos.api.Global
 	4, // 3: kratos.api.Server.http:type_name -> kratos.api.Server.HTTP
 	5, // 4: kratos.api.Data.database:type_name -> kratos.api.Data.Database
-	6, // 5: kratos.api.Global.proxyIconUrl:type_name -> kratos.api.Global.ProxyIconUrl
-	7, // 6: kratos.api.Global.proxyJsonUrl:type_name -> kratos.api.Global.ProxyJsonUrl
-	8, // 7: kratos.api.Global.lcu:type_name -> kratos.api.Global.LCU
-	9, // 8: kratos.api.Server.HTTP.timeout:type_name -> google.protobuf.Duration
-	9, // [9:9] is the sub-list for method output_type
-	9, // [9:9] is the sub-list for method input_type
-	9, // [9:9] is the sub-list for extension type_name
-	9, // [9:9] is the sub-list for extension extendee
-	0, // [0:9] is the sub-list for field type_name
+	6, // 5: kratos.api.Global.proxyJsonUrl:type_name -> kratos.api.Global.ProxyJsonUrl
+	7, // 6: kratos.api.Global.lcu:type_name -> kratos.api.Global.LCU
+	8, // 7: kratos.api.Server.HTTP.timeout:type_name -> google.protobuf.Duration
+	8, // [8:8] is the sub-list for method output_type
+	8, // [8:8] is the sub-list for method input_type
+	8, // [8:8] is the sub-list for extension type_name
+	8, // [8:8] is the sub-list for extension extendee
+	0, // [0:8] is the sub-list for field type_name
 }
 
 func init() { file_conf_conf_proto_init() }
@@ -625,7 +612,7 @@ func file_conf_conf_proto_init() {
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
 			RawDescriptor: unsafe.Slice(unsafe.StringData(file_conf_conf_proto_rawDesc), len(file_conf_conf_proto_rawDesc)),
 			NumEnums:      0,
-			NumMessages:   9,
+			NumMessages:   8,
 			NumExtensions: 0,
 			NumServices:   0,
 		},

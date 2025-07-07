@@ -49,11 +49,15 @@ func (c *Client) tryDetectClient() {
 		itemURL := fmt.Sprintf(c.conf.ProxyJsonUrl.ItemJson)
 		champURL := fmt.Sprintf(c.conf.ProxyJsonUrl.ChampJson)
 		spellURL := fmt.Sprintf(c.conf.ProxyJsonUrl.SpellJson)
+		mapURL := fmt.Sprintf(c.conf.ProxyJsonUrl.MapIconJson)
+		profileURL := fmt.Sprintf(c.conf.ProxyJsonUrl.ProfileIconJson)
 		go func() {
 			err := c.IconMapDownloader(
 				itemURL,
 				champURL,
 				spellURL,
+				profileURL,
+				mapURL,
 			)
 			if err != nil {
 				c.log.Warnf("图标资源初始化失败: %v", err)

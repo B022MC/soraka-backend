@@ -25,9 +25,18 @@ type ChampIconEntry struct {
 	ID                 int    `json:"id"`
 	SquarePortraitPath string `json:"squarePortraitPath"`
 }
+type MapIconEntry struct {
+	ID          int    `json:"id"`
+	MapStringId string `json:"mapStringId"`
+}
+
+type ProfileIconEntry struct {
+	ID       int    `json:"id"`
+	IconPath string `json:"iconPath"`
+}
 
 // 自动下载并初始化所有 icon map
-func (c *Client) IconMapDownloader(itemURL, champURL, spellURL string) error {
+func (c *Client) IconMapDownloader(itemURL, champURL, spellURL, profileURL, mapURL string) error {
 	if err := c.downloadAndLoad(itemURL, consts.ItemIconMap, "item"); err != nil {
 		return err
 	}
@@ -35,6 +44,12 @@ func (c *Client) IconMapDownloader(itemURL, champURL, spellURL string) error {
 		return err
 	}
 	if err := c.downloadAndLoad(spellURL, consts.SpellIconMap, "spell"); err != nil {
+		return err
+	}
+	if err := c.downloadAndLoad(mapURL, consts.MapIcon, "map"); err != nil {
+		return err
+	}
+	if err := c.downloadAndLoad(profileURL, consts.ProfileIconMap, "profile"); err != nil {
 		return err
 	}
 	fmt.Println("所有图标 map 初始化完成")
@@ -67,6 +82,22 @@ func (c *Client) downloadAndLoad(url string, target map[int]string, logName stri
 		}
 		for _, e := range entries {
 			target[e.ID] = e.SquarePortraitPath
+		}
+	case "map":
+		var entries []MapIconEntry
+		if err := json.Unmarshal(resp, &entries); err != nil {
+			return fmt.Errorf("[%s] 解析 JSON 失败: %w", logName, err)
+		}
+		for _, e := range entries {
+			target[e.ID] = e.MapStringId
+		}
+	case "profile":
+		var entries []ProfileIconEntry
+		if err := json.Unmarshal(resp, &entries); err != nil {
+			return fmt.Errorf("[%s] 解析 JSON 失败: %w", logName, err)
+		}
+		for _, e := range entries {
+			target[e.ID] = e.IconPath
 		}
 	default:
 		return fmt.Errorf("[%s] 未知类型，无法解析", logName)
