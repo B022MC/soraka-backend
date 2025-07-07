@@ -39,6 +39,7 @@ func NewClient(logger log.Logger, conf *conf.Global) *Client {
 
 	client.log.Info("LCU Client 初始化完成，开始检测客户端进程")
 	go client.backgroundLoop()
+	client.initResourcesIfNeeded()
 	return client
 }
 

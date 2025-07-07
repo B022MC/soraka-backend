@@ -11,9 +11,9 @@ data:
     alias: sorakaDB
 
 global:
-  proxyUrl: "http://127.0.0.1:8022/lcu/proxy"
+  proxyUrl: "/client/proxy"
   proxyIconUrl:
-    profile_icons: https://proxy.example.com/icons/profile/
+    profile_icons: "/lol-game-data/assets/v1/profile-icons"
     champion_icons: https://proxy.example.com/icons/champion/
     spell_icons: https://proxy.example.com/icons/spell/
 
@@ -25,3 +25,5 @@ global:
   lcu:
     base_url: "http://127.0.0.1"  # LCU 默认 API 根地址
     gameflow_path: "/lol-gameflow/v1/gameflow-phase"
+    summoner_path: "/lol-summoner/v1/current-summoner"
+    matchmaking_path: "/lol-matchmaking/v1/ready-check/accept"

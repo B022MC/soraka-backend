@@ -23,7 +23,8 @@ func (s *ClientInfoService) RegisterRouter(rootRouter *gin.RouterGroup) {
 	privateRouter := rootRouter.Group("/client")
 	privateRouter.GET("/getClientInfo", s.GetClientInfo)
 	privateRouter.GET("/streamClientInfo", s.StreamClientInfo)
-
+	privateRouter.POST("/openLolClient", s.OpenLolClient)
+	privateRouter.Any("/proxy/*path", s.Proxy)
 }
 
 // GetClientInfo
@@ -97,5 +98,41 @@ func (s *ClientInfoService) StreamClientInfo(ctx *gin.Context) {
 			}
 			flusher.Flush()
 		}
+	}
+}
+
+// OpenLolClient
+// @Summary         启动 LOL Client
+// @Description     启动 LOL Client
+// @Tags            client/ClientInfo
+// @Produce         json
+// @Success         200 {object} response.Body{msg=string}
+// @Failure         500 {object} response.Body{msg=string}
+// @Router          /client/openLolClient [POST]
+func (s *ClientInfoService) OpenLolClient(ctx *gin.Context) {
+	err := s.uc.OpenLolClient()
+	if err != nil {
+		response.Fail(ctx, ecode.Failed, err.Error())
+		return
+	}
+	response.Success(ctx, "启动成功")
+}
+
+// Proxy
+// @Summary         转发 LCU 请求
+// @Description     将请求通过反向代理转发至本地 LOL 客户端（LCU）。路径将自动拼接到 LCU 接口上，需去掉前缀。
+// @Tags            client/ClientInfo
+// @Accept          */*
+// @Produce         */*
+// @Success         200 {object} any "LCU 原始响应"
+// @Failure         500 {object} response.Body{msg=string}
+// @Router          /client/proxy/{path} [POST]
+func (s *ClientInfoService) Proxy(ctx *gin.Context) {
+	err := s.uc.ReverseProxy(ctx)
+	if err != nil {
+		if !ctx.Writer.Written() {
+			response.Fail(ctx, ecode.Failed, err.Error())
+		}
+		return
 	}
 }

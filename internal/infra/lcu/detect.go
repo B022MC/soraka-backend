@@ -44,7 +44,24 @@ func (c *Client) tryDetectClient() {
 	if !c.Connected && !c.Polling {
 		c.log.Infof("检测到 LCU，端口 %d", port)
 		go c.StartPolling()
-		go c.initResourcesIfNeeded()
+		//go c.initResourcesIfNeeded()
+		c.log.Info("首次连接成功，开始初始化图标资源")
+		itemURL := fmt.Sprintf(c.conf.ProxyJsonUrl.ItemJson)
+		champURL := fmt.Sprintf(c.conf.ProxyJsonUrl.ChampJson)
+		spellURL := fmt.Sprintf(c.conf.ProxyJsonUrl.SpellJson)
+		go func() {
+			err := c.IconMapDownloader(
+				itemURL,
+				champURL,
+				spellURL,
+			)
+			if err != nil {
+				c.log.Warnf("图标资源初始化失败: %v", err)
+			} else {
+				c.log.Info("图标资源初始化完成")
+			}
+		}()
+
 	}
 
 	c.Connected = true
