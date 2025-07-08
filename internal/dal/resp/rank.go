@@ -17,6 +17,8 @@ type QueueInfo struct {
 	// HighestTier 表示玩家历史最高的段位，例如 "Diamond"、"Master"。
 	HighestTier string `json:"highestTier"`
 
+	HighestTierCn string `json:"highestTierCn"`
+
 	// IsProvisional 表示该队列是否处于定级赛阶段。
 	IsProvisional bool `json:"isProvisional"`
 

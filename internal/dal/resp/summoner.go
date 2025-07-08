@@ -5,14 +5,16 @@ import (
 )
 
 type Summoner struct {
-	GameName      string `json:"gameName"`
-	TagLine       string `json:"tagLine"`
-	SummonerLevel int    `json:"summonerLevel"`
-	ProfileIconId int    `json:"profileIconId"`
-	//ProfileIconKey string `json:"profileIconKey"`
-	ProfileIconUrl string `json:"profileIconUrl"`
-	Puuid          string `json:"puuid"`
-	PlatformIdCn   string `json:"platformIdCn"`
+	GameName                    string  `json:"gameName"`
+	TagLine                     string  `json:"tagLine"`
+	SummonerLevel               int     `json:"summonerLevel"`
+	ProfileIconId               int     `json:"profileIconId"`
+	ProfileIconUrl              string  `json:"profileIconUrl"`
+	Puuid                       string  `json:"puuid"`
+	PlatformIdCn                string  `json:"platformIdCn"`
+	XpSinceLastLevel            int     `json:"xpSinceLastLevel"`
+	XpUntilNextLevel            int     `json:"xpUntilNextLevel"`
+	PercentCompleteForNextLevel float64 `json:"percentCompleteForNextLevel"`
 }
 type SummonerInfo struct {
 	Summoner Summoner `json:"summoner"`

@@ -36,6 +36,8 @@ func (r *rankRepo) GetRankByPuuid(puuid string) (*resp.Rank, error) {
 	//进行映射中文
 	rank.QueueMap.RankedFlexSr.TierCn = consts.TierEnToCn[rank.QueueMap.RankedFlexSr.Tier]
 	rank.QueueMap.RankedSolo5x5.TierCn = consts.TierEnToCn[rank.QueueMap.RankedSolo5x5.Tier]
+	rank.QueueMap.RankedFlexSr.HighestTierCn = consts.TierEnToCn[rank.QueueMap.RankedFlexSr.Tier]
+	rank.QueueMap.RankedSolo5x5.HighestTierCn = consts.TierEnToCn[rank.QueueMap.RankedSolo5x5.Tier]
 	rank.QueueMap.RankedFlexSr.QueueTypeCn = consts.QueueTypeToCn[rank.QueueMap.RankedFlexSr.QueueType]
 	rank.QueueMap.RankedSolo5x5.QueueType = consts.QueueTypeToCn[rank.QueueMap.RankedSolo5x5.QueueType]
 	return &rank, nil
