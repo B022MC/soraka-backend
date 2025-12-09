@@ -7,7 +7,20 @@ import (
 	"fmt"
 	"io"
 	"net/http"
+	"net/url"
 )
+
+// DoRequestWithParams 支持查询参数的请求
+func (c *Client) DoRequestWithParams(method, path string, params map[string]string, body any) ([]byte, error) {
+	if len(params) > 0 {
+		query := url.Values{}
+		for k, v := range params {
+			query.Set(k, v)
+		}
+		path = path + "?" + query.Encode()
+	}
+	return c.DoRequest(method, path, body)
+}
 
 func (c *Client) DoRequest(method, path string, body any) ([]byte, error) {
 	c.mu.RLock()
@@ -28,6 +41,8 @@ func (c *Client) DoRequest(method, path string, body any) ([]byte, error) {
 		if err != nil {
 			return nil, fmt.Errorf("请求参数序列化失败: %w", err)
 		}
+		// 调试日志：打印请求体
+		fmt.Printf("[LCU] %s %s\nBody: %s\n", method, path, string(bts))
 		reader = bytes.NewReader(bts)
 	}
 

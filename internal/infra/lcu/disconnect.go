@@ -13,10 +13,16 @@ func (c *Client) setDisconnectedLocked() {
 		c.log.Warn("检测到断开连接，停止轮询")
 		c.stopPollingLocked()
 	}
+
+	// 停止 WebSocket 连接
+	if c.wsManager != nil {
+		c.wsManager.Stop()
+	}
+
 	c.Connected = false
 	c.Token = ""
 	c.Port = 0
-	c.GamePhase = "None"
+	c.GamePhase = ""
 	c.failCount = 0
 	// 清空图标缓存
 	for k := range consts.ItemIconMap {

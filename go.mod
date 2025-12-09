@@ -5,14 +5,18 @@ go 1.24.2
 replace go-utils => ./go-utils
 
 require (
+	github.com/gin-contrib/cors v1.7.6
 	github.com/gin-gonic/gin v1.10.1
 	github.com/go-kratos/kratos/contrib/log/zap/v2 v2.0.0-20250527152916-d6f5f00cf562
 	github.com/go-kratos/kratos/v2 v2.8.4
 	github.com/google/wire v0.6.0
+	github.com/gorilla/websocket v1.5.3
+	github.com/hashicorp/golang-lru v1.0.2
 	github.com/tx7do/kratos-transport/transport/gin v1.2.24
 	go-utils v0.0.0-00010101000000-000000000000
 	go.uber.org/automaxprocs v1.6.0
 	go.uber.org/zap v1.27.0
+	golang.org/x/sys v0.33.0
 	google.golang.org/protobuf v1.36.6
 	gorm.io/driver/sqlite v1.6.0
 	gorm.io/gorm v1.30.0
@@ -26,7 +30,6 @@ require (
 	github.com/cloudwego/base64x v0.1.5 // indirect
 	github.com/fsnotify/fsnotify v1.6.0 // indirect
 	github.com/gabriel-vasile/mimetype v1.4.9 // indirect
-	github.com/gin-contrib/cors v1.7.6 // indirect
 	github.com/gin-contrib/sse v1.1.0 // indirect
 	github.com/go-kratos/aegis v0.2.0 // indirect
 	github.com/go-logr/logr v1.4.3 // indirect
@@ -40,7 +43,6 @@ require (
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/gorilla/mux v1.8.1 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.26.3 // indirect
-	github.com/hashicorp/golang-lru v1.0.2 // indirect
 	github.com/jackc/pgpassfile v1.0.0 // indirect
 	github.com/jackc/pgservicefile v0.0.0-20240606120523-5a60cdf6a761 // indirect
 	github.com/jackc/pgx/v5 v5.7.4 // indirect
@@ -82,7 +84,6 @@ require (
 	golang.org/x/crypto v0.39.0 // indirect
 	golang.org/x/net v0.41.0 // indirect
 	golang.org/x/sync v0.15.0 // indirect
-	golang.org/x/sys v0.33.0 // indirect
 	golang.org/x/text v0.26.0 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20250603155806-513f23925822 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20250603155806-513f23925822 // indirect

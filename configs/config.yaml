@@ -20,9 +20,45 @@ global:
     map_icon_json: "/lol-game-data/assets/v1/maps.json"
   lcu:
     base_url: "http://127.0.0.1"  # LCU 默认 API 根地址
+    # 游戏流程相关
     gameflow_path: "/lol-gameflow/v1/gameflow-phase"
+    gameflow_session_path: "/lol-gameflow/v1/session"
+    reconnect_path: "/lol-gameflow/v1/reconnect"
+    # 召唤师相关
     summoner_path: "/lol-summoner/v1/current-summoner"
     summoner_by_name_path: "/lol-summoner/v1/summoners"
     summoner_puuid_path: "/lol-summoner/v2/summoners/puuid"
+    summoner_by_id_path: "/lol-summoner/v1/summoners"
+    summoner_profile_path: "/lol-summoner/v1/current-summoner/summoner-profile"
+    summoner_icon_path: "/lol-summoner/v1/current-summoner/icon"
+    # 排位相关
     ranked_stats_path: "/lol-ranked/v1/ranked-stats"
+    # 匹配相关
     matchmaking_path: "/lol-matchmaking/v1/ready-check/accept"
+    ready_check_path: "/lol-matchmaking/v1/ready-check"
+    # 英雄选择相关
+    champ_select_session_path: "/lol-champ-select/v1/session"
+    champ_select_actions_path: "/lol-champ-select/v1/session/actions"
+    champ_select_trades_path: "/lol-champ-select/v1/session/trades"
+    champ_select_swaps_path: "/lol-champ-select/v1/session/swaps"
+    champ_select_bench_swap_path: "/lol-champ-select/v1/session/bench/swap"
+    champ_select_my_selection_path: "/lol-champ-select/v1/session/my-selection"
+    champ_select_skin_carousel_path: "/lol-champ-select/v1/skin-carousel-skins"
+    current_champion_path: "/lol-champ-select/v1/current-champion"
+    # 符文相关
+    perks_current_page_path: "/lol-perks/v1/currentpage"
+    perks_pages_path: "/lol-perks/v1/pages"
+    # 对局历史相关
+    match_history_path: "/lol-match-history/v1/products/lol"
+    game_detail_path: "/lol-match-history/v1/games"
+    # 聊天相关
+    chat_me_path: "/lol-chat/v1/me"
+    # 个性化相关
+    regalia_path: "/lol-regalia/v2/current-summoner/regalia"
+    challenges_preferences_path: "/lol-challenges/v1/update-player-preferences"
+    # 大厅相关
+    lobby_path: "/lol-lobby/v2/lobby"
+    # 观战相关
+    spectate_launch_path: "/lol-spectator/v1/spectate/launch"
+    # 资源相关
+    install_dir_path: "/data-store/v1/install-dir"

@@ -43,12 +43,48 @@ message Global {
 
   message LCU {
     string base_url = 1;
+    // 游戏流程相关
     string gameflow_path = 2;
-    string summoner_path = 3;
-    string summoner_by_name_path = 4;
-    string summoner_puuid_path= 5;
-    string ranked_stats_path= 6;
-    string matchmaking_path = 7;
+    string gameflow_session_path = 3;
+    string reconnect_path = 4;
+    // 召唤师相关
+    string summoner_path = 5;
+    string summoner_by_name_path = 6;
+    string summoner_puuid_path = 7;
+    string summoner_by_id_path = 8;
+    string summoner_profile_path = 9;
+    string summoner_icon_path = 10;
+    // 排位相关
+    string ranked_stats_path = 11;
+    // 匹配相关
+    string matchmaking_path = 12;
+    string ready_check_path = 13;
+    // 英雄选择相关
+    string champ_select_session_path = 14;
+    string champ_select_actions_path = 15;
+    string champ_select_trades_path = 16;
+    string champ_select_swaps_path = 17;
+    string champ_select_bench_swap_path = 18;
+    string champ_select_my_selection_path = 19;
+    string champ_select_skin_carousel_path = 20;
+    string current_champion_path = 21;
+    // 符文相关
+    string perks_current_page_path = 22;
+    string perks_pages_path = 23;
+    // 对局历史相关
+    string match_history_path = 24;
+    string game_detail_path = 25;
+    // 聊天相关
+    string chat_me_path = 26;
+    // 个性化相关
+    string regalia_path = 27;
+    string challenges_preferences_path = 28;
+    // 大厅相关
+    string lobby_path = 29;
+    // 观战相关
+    string spectate_launch_path = 30;
+    // 资源相关
+    string install_dir_path = 31;
   }
 
   ProxyJsonUrl proxyJsonUrl = 2;

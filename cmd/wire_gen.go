@@ -7,18 +7,30 @@
 package main
 
 import (
+	"github.com/B022MC/soraka-backend/internal/biz/automation"
+	champ_select2 "github.com/B022MC/soraka-backend/internal/biz/champ_select"
 	client2 "github.com/B022MC/soraka-backend/internal/biz/client"
 	current_summoner2 "github.com/B022MC/soraka-backend/internal/biz/current_summoner"
+	gameflow2 "github.com/B022MC/soraka-backend/internal/biz/gameflow"
+	match2 "github.com/B022MC/soraka-backend/internal/biz/match"
 	"github.com/B022MC/soraka-backend/internal/conf"
+	"github.com/B022MC/soraka-backend/internal/dal/repo/champ_select"
 	"github.com/B022MC/soraka-backend/internal/dal/repo/client"
 	"github.com/B022MC/soraka-backend/internal/dal/repo/current_summoner"
+	"github.com/B022MC/soraka-backend/internal/dal/repo/gameflow"
 	"github.com/B022MC/soraka-backend/internal/dal/repo/match"
+	"github.com/B022MC/soraka-backend/internal/dal/repo/profile"
 	"github.com/B022MC/soraka-backend/internal/dal/repo/rank"
+	"github.com/B022MC/soraka-backend/internal/dal/repo/runes"
 	"github.com/B022MC/soraka-backend/internal/infra"
 	"github.com/B022MC/soraka-backend/internal/router"
 	"github.com/B022MC/soraka-backend/internal/server"
+	automation2 "github.com/B022MC/soraka-backend/internal/service/automation"
+	champ_select3 "github.com/B022MC/soraka-backend/internal/service/champ_select"
 	client3 "github.com/B022MC/soraka-backend/internal/service/client"
+	gameflow3 "github.com/B022MC/soraka-backend/internal/service/gameflow"
 	"github.com/B022MC/soraka-backend/internal/service/lcu"
+	match3 "github.com/B022MC/soraka-backend/internal/service/match"
 	"github.com/go-kratos/kratos/v2"
 	"github.com/go-kratos/kratos/v2/log"
 )
@@ -47,12 +59,27 @@ func wireApp(global *conf.Global, confServer *conf.Server, data *conf.Data, logg
 	gameDetailRepo := match.NewGameDetailRepo(infraData, global, logger)
 	currentSummonerUseCase := current_summoner2.NewCurrentSummonerUseCase(currentSummonerRepo, rankRepo, matchHistoryRepo, gameDetailRepo, logger)
 	currentSummonerService := lcu.NewCurrentSummonerService(currentSummonerUseCase)
-	lcuRouter := router.NewLcuRouter(currentSummonerService)
+	auxiliaryService := lcu.NewAuxiliaryService(infraData)
+	gameflowRepo := gameflow.NewGameflowRepo(infraData, global, logger)
+	gameflowUseCase := gameflow2.NewGameflowUseCase(gameflowRepo, logger)
+	gameflowService := gameflow3.NewGameflowService(gameflowUseCase)
+	champSelectRepo := champ_select.NewChampSelectRepo(infraData, global, logger)
+	champSelectUseCase := champ_select2.NewChampSelectUseCase(champSelectRepo, logger)
+	champSelectService := champ_select3.NewChampSelectService(champSelectUseCase)
+	runesRepo := runes.NewRunesRepo(infraData, global, logger)
+	profileRepo := profile.NewProfileRepo(infraData, global, logger)
+	automationUseCase := automation.NewAutomationUseCase(gameflowRepo, champSelectRepo, runesRepo, profileRepo, logger)
+	automationService := automation2.NewAutomationService(automationUseCase)
+	lcuRouter := router.NewLcuRouter(currentSummonerService, auxiliaryService, gameflowService, champSelectService, automationService)
 	clientInfoRepo := client.NewClientInfoRepo(infraData, logger)
 	clientInfoUseCase := client2.NewClientUseCase(clientInfoRepo, logger)
 	clientInfoService := client3.NewClientInfoService(clientInfoUseCase)
 	clientRouter := router.NewClientRouter(clientInfoService)
-	rootRouter := router.NewRootRouter(lcuRouter, clientRouter)
+	matchUseCase := match2.NewMatchUseCase(matchHistoryRepo, gameDetailRepo, logger)
+	matchService := match3.NewMatchService(matchUseCase)
+	matchRouter := router.NewMatchRouter(matchService)
+	assetsRouter := router.NewAssetsRouter()
+	rootRouter := router.NewRootRouter(lcuRouter, clientRouter, matchRouter, assetsRouter)
 	ginServer := server.NewHTTPServer(confServer, logger, rootRouter)
 	app := newApp(logger, ginServer)
 	return app, func() {

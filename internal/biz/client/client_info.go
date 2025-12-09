@@ -4,14 +4,15 @@ import (
 	"crypto/tls"
 	"errors"
 	"fmt"
-	clientRepo "github.com/B022MC/soraka-backend/internal/dal/repo/client"
-	"github.com/B022MC/soraka-backend/internal/dal/resp"
-	"github.com/gin-gonic/gin"
-	"github.com/go-kratos/kratos/v2/log"
 	"net/http"
 	"net/http/httputil"
 	"net/url"
 	"strings"
+
+	clientRepo "github.com/B022MC/soraka-backend/internal/dal/repo/client"
+	"github.com/B022MC/soraka-backend/internal/dal/resp"
+	"github.com/gin-gonic/gin"
+	"github.com/go-kratos/kratos/v2/log"
 )
 
 type ClientInfoUseCase struct {
@@ -64,8 +65,12 @@ func (c *ClientInfoUseCase) ReverseProxy(ctx *gin.Context) error {
 		req.Host = targetURL.Host
 		req.RequestURI = ""
 		// 去掉前缀 /client/proxy
-		req.URL.Path = strings.TrimPrefix(req.URL.Path, "/client/proxy")
+		targetPath := strings.TrimPrefix(req.URL.Path, "/client/proxy")
+		req.URL.Path = targetPath
 		req.SetBasicAuth("riot", clientInfo.Token)
+
+		// 添加调试日志
+		c.log.Infof("🔄 代理请求: %s -> https://127.0.0.1:%d%s", ctx.Request.URL.Path, clientInfo.Port, targetPath)
 	}
 
 	proxy.Transport = &http.Transport{

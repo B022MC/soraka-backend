@@ -26,6 +26,7 @@ type Client struct {
 	initOnce   sync.Once
 	conf       *conf.Global
 	ClientPath string
+	wsManager  *WebSocketManager
 }
 
 func NewClient(logger log.Logger, conf *conf.Global) *Client {
@@ -36,6 +37,9 @@ func NewClient(logger log.Logger, conf *conf.Global) *Client {
 		httpClient: newHttpClient(),
 		conf:       conf,
 	}
+
+	// 初始化 WebSocket 管理器
+	client.wsManager = NewWebSocketManager(client, logger)
 
 	client.log.Info("LCU Client 初始化完成，开始检测客户端进程")
 	go client.backgroundLoop()
@@ -50,4 +54,9 @@ func newHttpClient() *http.Client {
 			TLSClientConfig: &tls.Config{InsecureSkipVerify: true},
 		},
 	}
+}
+
+// GetWebSocketManager 获取 WebSocket 管理器
+func (c *Client) GetWebSocketManager() *WebSocketManager {
+	return c.wsManager
 }

@@ -3,15 +3,17 @@ package match
 import (
 	"encoding/json"
 	"fmt"
+	"net/http"
+
 	"github.com/B022MC/soraka-backend/internal/conf"
 	"github.com/B022MC/soraka-backend/internal/dal/resp"
 	"github.com/B022MC/soraka-backend/internal/infra"
 	"github.com/go-kratos/kratos/v2/log"
 	lru "github.com/hashicorp/golang-lru"
-	"net/http"
 )
 
 type GameDetailRepo interface {
+	GetGameDetail(gameId int) (*resp.GameDetail, error)
 }
 type gameDetailRepo struct {
 	global          *conf.Global

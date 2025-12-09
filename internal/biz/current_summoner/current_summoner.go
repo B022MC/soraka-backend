@@ -78,3 +78,13 @@ func (uc *CurrentSummonerUseCase) GetSummonerAndRank(param req.SummonerReq) (*re
 		Rank:     *rankRes,
 	}, nil
 }
+
+// GetCurrentSummoner 获取当前登录的召唤师信息
+func (uc *CurrentSummonerUseCase) GetCurrentSummoner() (*resp.Summoner, error) {
+	summoner, err := uc.repo.GetCurrentSummoner()
+	if err != nil {
+		uc.log.Errorf("获取当前召唤师信息失败: %v", err)
+		return nil, err
+	}
+	return summoner, nil
+}

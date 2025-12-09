@@ -1,7 +1,33 @@
 package resp
 
 type GameDetail struct {
-	EndOfGameResult       string `json:"endOfGameResult"`
+	EndOfGameResult  string `json:"endOfGameResult"`
+	GameId           int64  `json:"gameId"`
+	GameCreationDate string `json:"gameCreationDate"`
+	GameDuration     int    `json:"gameDuration"`
+	QueueId          int    `json:"queueId"`
+	MapId            int    `json:"mapId"`
+	GameMode         string `json:"gameMode"`
+	GameType         string `json:"gameType"`
+	Teams            []struct {
+		TeamId          int    `json:"teamId"`
+		Win             string `json:"win"`
+		FirstBlood      bool   `json:"firstBlood"`
+		FirstTower      bool   `json:"firstTower"`
+		FirstInhibitor  bool   `json:"firstInhibitor"`
+		FirstBaron      bool   `json:"firstBaron"`
+		FirstDragon     bool   `json:"firstDragon"`
+		FirstRiftHerald bool   `json:"firstRiftHerald"`
+		TowerKills      int    `json:"towerKills"`
+		InhibitorKills  int    `json:"inhibitorKills"`
+		BaronKills      int    `json:"baronKills"`
+		DragonKills     int    `json:"dragonKills"`
+		RiftHeraldKills int    `json:"riftHeraldKills"`
+		Bans            []struct {
+			ChampionId int `json:"championId"`
+			PickTurn   int `json:"pickTurn"`
+		} `json:"bans"`
+	} `json:"teams"`
 	ParticipantIdentities []struct {
 		Player struct {
 			AccountId    int    `json:"accountId"`
@@ -38,10 +64,17 @@ type GameDetail struct {
 			Item4Key            string `json:"item4Key"`
 			Item5Key            string `json:"item5Key"`
 			Item6Key            string `json:"item6Key"`
+			Perk0               int    `json:"perk0"`
+			Perk1               int    `json:"perk1"`
+			Perk2               int    `json:"perk2"`
+			Perk3               int    `json:"perk3"`
+			Perk4               int    `json:"perk4"`
+			Perk5               int    `json:"perk5"`
 			PerkPrimaryStyle    int    `json:"perkPrimaryStyle"`
 			PerkSubStyle        int    `json:"perkSubStyle"`
 			PerkPrimaryStyleKey string `json:"perkPrimaryStyleKey"`
 			PerkSubStyleKey     string `json:"perkSubStyleKey"`
+			ChampLevel          int    `json:"champLevel"`
 
 			Kills   int `json:"kills"`
 			Deaths  int `json:"deaths"`

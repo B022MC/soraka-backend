@@ -1,11 +1,12 @@
 package lcu
 
 import (
+	"go-utils/utils/ecode"
+	"go-utils/utils/response"
+
 	req2 "github.com/B022MC/soraka-backend/internal/dal/req"
 	_ "github.com/B022MC/soraka-backend/internal/dal/resp"
 	"github.com/gin-gonic/gin"
-	"go-utils/utils/ecode"
-	"go-utils/utils/response"
 
 	currentSummonerUseCaseBiz "github.com/B022MC/soraka-backend/internal/biz/current_summoner"
 )
@@ -21,6 +22,7 @@ func NewCurrentSummonerService(uc *currentSummonerUseCaseBiz.CurrentSummonerUseC
 }
 func (s *CurrentSummonerService) RegisterRouter(rootRouter *gin.RouterGroup) {
 	privateRouter := rootRouter.Group("/lcu")
+	privateRouter.GET("/current-summoner", s.GetCurrentSummoner)
 	privateRouter.GET("/getRankInfo", s.GetRankInfo)
 }
 
@@ -48,4 +50,22 @@ func (s *CurrentSummonerService) GetRankInfo(ctx *gin.Context) {
 		return
 	}
 	response.Success(ctx, rankInfo)
+}
+
+// GetCurrentSummoner
+// @Summary 获取当前召唤师信息
+// @Description 获取当前登录的召唤师信息，包括头像、等级、名称等
+// @Tags lcu/CurrentSummoner
+// @Accept json
+// @Produce json
+// @Success 200 {object} response.Body{data=resp.Summoner,msg=string}
+// @Failure 500 {object} response.Body{msg=string}
+// @Router /lcu/current-summoner [get]
+func (s *CurrentSummonerService) GetCurrentSummoner(ctx *gin.Context) {
+	summoner, err := s.uc.GetCurrentSummoner()
+	if err != nil {
+		response.Fail(ctx, ecode.Failed, "获取召唤师信息失败")
+		return
+	}
+	response.Success(ctx, summoner)
 }
